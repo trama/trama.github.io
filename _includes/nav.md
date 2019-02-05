@@ -10,7 +10,7 @@
 
 ***
 
-* [Curriculum]({{"/cv" | relative_url}})
+* [Curriculum]({{ "/cv" | relative_url }})
 
 ***
 
