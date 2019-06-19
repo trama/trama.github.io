@@ -1,6 +1,6 @@
 # Curriculum Vitae
 
-* [Journals]({{ "/cv/riviste" | relative_url }})
+* [Publications]({{ "/cv/pubs" | relative_url }})
 
 ---
 
