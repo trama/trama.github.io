@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - master
-      - source
+      - src
   pull_request:
     branches:
       - master
-      - source
+      - src
 
 jobs:
   deploy:
