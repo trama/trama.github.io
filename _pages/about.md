@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Dept. of Engineering. University of Modena and Reggio Emilia</a>. Modena, Italy. Contacts. Moto. Etc.
+description: <a href="#">Dept. of Engineering. University of Modena and Reggio Emilia</a>. Modena, Italy.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: trama_pic.png
   address: >
     <p>Room #MO25-01a-13</p>
     <p>Via P. Vivarelli 10</p>
