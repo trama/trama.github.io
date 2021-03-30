@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Federico  Tramarin | blank</title>
+<title>Federico  Tramarin | Zoom-like compression for lectures, using ffmpeg</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -33,7 +33,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog/2021/ffmpeg-zoom-compression/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -146,8 +146,8 @@
           
           
           
-            <div class = "toggle-container">
-              <a id = "light-toggle">
+            <div class="toggle-container">
+              <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
               </a>
@@ -164,68 +164,58 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
 
-  <div class="header-bar">
-    <h1>Federico</h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Zoom-like compression for lectures, using ffmpeg</h1>
+    <p class="post-meta">March 30, 2021</p>
+  </header>
+
+  <article class="post-content">
+    <p>In this last year, we have been accustomed to teach via conferencing tools.
+We have several options (Meet, Teams, Zoom, BBB, etc) but Zoom provides, in my opinion, the best compromise between quality and compression level on recorded videos.</p>
+
+<p>Indeed, if you have to record the lecture (maybe a 2 hours lecture) you have to use either the built-in functions of the software, or something made available by the OS.</p>
+
+<p>And you may end up with a huge video file.
+Who have tried to record the screen through the built-in functions of Win10 or Mac, just to make an example, should already know that the final file maybe in the order of GBs <img class="emoji" title=":sweat:" alt=":sweat:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f613.png" height="20" width="20">
+That is not the best way to record a lecture, I agree!
+However, take into account that sometimes software functions may just be unavailable. Example: use Zoom on an iPad…if you have a valid account you may record on the cloud, otherwise, it simply does not provide a <em>local</em> recording function. The only solution is to record your screen with the iPadOS function.</p>
+
+<p>Conversely, if you are able to use the Zoom record functionality, you will end up with a really small file, more or less 100MB per hour, that however retains a rather good quality, especially if you use slides.</p>
+
+<p>So, how can I try to reproduce the same compression scheme (end efficiency) for a large video?</p>
+
+<p>The point is that, in that specific case, you are actually realizing a video with a really low motion level, for seconds you may be watching at the same slide…and honestly if I don’t see PowerPoint animations at 60FPS, my eyes won’t be hurted very much <img class="emoji" title=":rofl:" alt=":rofl:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f923.png" height="20" width="20">.
+Techincally speaking, you can decimate frames</p>
+
+<!-- 
+
+{% highlight c++ linenos %}  <br/> code code code <br/> {% endhighlight %}
 
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/ffmpeg-zoom-compression/">Zoom-like compression for lectures, using ffmpeg</a></h3>
-        <p class="post-meta">March 30, 2021</p>
-        <p>How to use ffmpeg to provide a high compression level (like in Zoom) for lectures</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2018/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2015/comments/">a post with comments</a></h3>
-        <p class="post-meta">October 20, 2015</p>
-        <p>an example of a blog post with comments</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2015/math/">a post with math</a></h3>
-        <p class="post-meta">October 20, 2015</p>
-        <p>an example of a blog post with some math</p>
-      </li>
-    
-  </ul>
+The keyword `linenos` triggers display of line numbers.
+Produces something like this: -->
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td>
+<td class="code"><pre>    ffmpeg <span class="nt">-i</span> input.mp4 <span class="nt">-vcodec</span> <span class="s2">"libx264"</span> 
+        <span class="nt">-crf</span> 36 <span class="nt">-vf</span> mpdecimate <span class="nt">-vsync</span> vfr <span class="nt">-c</span>:a aac <span class="nt">-b</span>:a 128k 
+        <span class="nt">-preset</span> veryslow <span class="nt">-profile</span>:v high <span class="nt">-tune</span> stillimage 
+        <span class="nt">-max_muxing_queue_size</span> 2048 <span class="nt">-f</span> output.mp4
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+
+  </article>
 
   
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-
 
 </div>
 
@@ -236,7 +226,7 @@
     
 <footer class="sticky-bottom mt-5">
   <div class="container">
-    &copy; Copyright 2021 Federico  Tramarin.
+    © Copyright 2021 Federico  Tramarin.
     Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
     
