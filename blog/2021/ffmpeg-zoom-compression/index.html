@@ -2,23 +2,23 @@
 <html lang="en">
 
   <!-- Head -->
-  <head>    <!-- Metadata, OpenGraph and Schema.org -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
     
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>blog - page 2 | Federico  Tramarin</title>
-    <meta name="author" content="Federico  Tramarin" />
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-" />
-    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
+    <title>Zoom-like compression for lectures, using ffmpeg | Federico  Tramarin</title>
+    <meta name="author" content="Federico  Tramarin">
+    <meta name="description" content="How to use ffmpeg to provide a high compression level (like in Zoom) for lectures">
+    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
     <!-- Bootstrap & MDB -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
 
     <!-- Fonts & Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
@@ -26,18 +26,18 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
     <!-- Code Syntax Highlighting -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
 
     <!-- Styles -->
     
-    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
+    <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://trama.github.io/blog/page/2/">
+    <link rel="canonical" href="https://trama.github.io/blog/2021/ffmpeg-zoom-compression/">
     
     <!-- Dark Mode -->
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
 
     <script src="/assets/js/theme.js"></script>
     <script src="/assets/js/dark_mode.js"></script>
@@ -54,7 +54,7 @@
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
         <div class="container">
-          <a class="navbar-brand title font-weight-lighter" href="//"><span class="font-weight-bold">Federico&nbsp;</span>Tramarin</a>
+          <a class="navbar-brand title font-weight-lighter" href="//"><span class="font-weight-bold">Federico </span>Tramarin</a>
           <!-- Navbar Toggle -->
           <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
@@ -124,258 +124,101 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- _layouts/post.html -->
 
-  <div class="header-bar">
-    <h1>al-folio</h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Zoom-like compression for lectures, using ffmpeg</h1>
+    <p class="post-meta">March 30, 2021</p>
+    <p class="post-tags">
+      <a href="//blog/2021"> <i class="fas fa-calendar fa-sm"></i> 2021 </a>
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    <p>In this last year, we have been accustomed to teach via conferencing tools.
+We have several options (Meet, Teams, Zoom, BBB, etc) but Zoom provides, in my opinion, the best compromise between quality and compression level on recorded videos.</p>
+
+<p>Indeed, if you have to record the lecture (maybe a 2 hours lecture) you have to use either the built-in functions of the software, or something made available by the OS.</p>
+
+<p>And you may end up with a huge video file.
+Who have tried to record the screen through the built-in functions of Win10 or Mac, just to make an example, should already know that the final file maybe in the order of GBs <img class="emoji" title=":sweat:" alt=":sweat:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f613.png" height="20" width="20">
+That is not the best way to record a lecture, I agree!
+However, take into account that sometimes software functions may just be unavailable. Example: use Zoom on an iPad…if you have a valid account you may record on the cloud, otherwise, it simply does not provide a <em>local</em> recording function. The only solution is to record your screen with the iPadOS function.</p>
+
+<p>Conversely, if you are able to use the Zoom record functionality, you will end up with a really small file, more or less 100MB per hour, that however retains a rather good quality, especially if you use slides.</p>
+
+<p>So, how can I try to reproduce the same compression scheme (end efficiency) for a large video?</p>
+
+<p>The point is that, in that specific case, you are actually realizing a video with a really low motion level, for seconds you may be watching at the same slide…and honestly if I don’t see PowerPoint animations at 60FPS, my eyes won’t be hurted very much <img class="emoji" title=":rofl:" alt=":rofl:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f923.png" height="20" width="20">.
+Techincally speaking, you can decimate frames</p>
+
+<!-- 
+
+{% highlight c++ linenos %}  <br/> code code code <br/> {% endhighlight %}
+
+
+The keyword `linenos` triggers display of line numbers.
+Produces something like this: -->
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td>
+<td class="code"><pre>    ffmpeg <span class="nt">-i</span> input.mp4 <span class="nt">-vcodec</span> <span class="s2">"libx264"</span> 
+        <span class="nt">-crf</span> 36 <span class="nt">-vf</span> mpdecimate <span class="nt">-vsync</span> vfr <span class="nt">-c</span>:a aac <span class="nt">-b</span>:a 128k 
+        <span class="nt">-preset</span> veryslow <span class="nt">-profile</span>:v high <span class="nt">-tune</span> stillimage 
+        <span class="nt">-max_muxing_queue_size</span> 2048 <span class="nt">-f</span> output.mp4
+</pre></td>
+</tr></tbody></table></code></pre></figure>
+
+
+  </article>
+
 
   
-  <div class="tag-list">
-    <ul class="p-0 m-0">
-      
-        <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="/blog/tag/formatting">formatting</a>
-        </li>
-        
-          <p>&bull;</p>
-        
-      
-        <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="/blog/tag/images">images</a>
-        </li>
-        
-          <p>&bull;</p>
-        
-      
-        <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="/blog/tag/links">links</a>
-        </li>
-        
-          <p>&bull;</p>
-        
-      
-        <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="/blog/tag/math">math</a>
-        </li>
-        
-          <p>&bull;</p>
-        
-      
-        <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="/blog/tag/code">code</a>
-        </li>
-        
-      
-    </ul>
-  </div>
+    
+    <br>
+    <hr>
+    <br>
+    <ul class="list-disc pl-8"></ul>
+
+    <!-- Adds related posts to the end of an article -->
+    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
+    <p class="mb-2">Here are some more articles you might like to read next:</p>
   
 
-  <ul class="post-list">
-    
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="//blog/2022/displaying-external-posts-on-your-al-folio-blog/">Displaying External Posts on Your al-folio Blog</a>
+  </li>
 
-    
-    
-    
-    
+  
 
-    <li>
-      <h3>
-        
-          <a class="post-title" href="//blog/2021/ffmpeg-zoom-compression/">Zoom-like compression for lectures, using ffmpeg</a>
-        
-      </h3>
-      <p>How to use ffmpeg to provide a high compression level (like in Zoom) for lectures</p>
-      <p class="post-meta">
-        3 min read &nbsp; &middot; &nbsp;
-        March 30, 2021
-      </p>
-      <p class="post-tags">
-        <a href="//blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="//blog/2022/giscus-comments/">a post with giscus comments</a>
+  </li>
 
-          
+  
 
-          
-    </p>
-    </li>
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="//blog/2022/redirect/">a post with redirect</a>
+  </li>
 
-    
+  
 
-    
-    
-    
-    
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="//blog/2021/diagrams/">a post with diagrams</a>
+  </li>
 
-    <li>
-      <h3>
-        
-          <a class="post-title" href="//blog/2020/github-metadata/">a post with github metadata</a>
-        
-      </h3>
-      <p>a quick run down on accessing github metadata.</p>
-      <p class="post-meta">
-        1 min read &nbsp; &middot; &nbsp;
-        September 28, 2020
-      </p>
-      <p class="post-tags">
-        <a href="//blog/2020">
-          <i class="fas fa-calendar fa-sm"></i> 2020 </a>
+  
 
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="//blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-            <a href="//blog/category/external-services">
-              <i class="fas fa-tag fa-sm"></i> external-services</a> &nbsp;
-              
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="//blog/2020/twitter/">a post with twitter</a>
-        
-      </h3>
-      <p>an example of a blog post with twitter</p>
-      <p class="post-meta">
-        1 min read &nbsp; &middot; &nbsp;
-        September 28, 2020
-      </p>
-      <p class="post-tags">
-        <a href="//blog/2020">
-          <i class="fas fa-calendar fa-sm"></i> 2020 </a>
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="//blog/tag/formatting">
-              <i class="fas fa-hashtag fa-sm"></i> formatting</a> &nbsp;
-              
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="//blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-            <a href="//blog/category/external-services">
-              <i class="fas fa-tag fa-sm"></i> external-services</a> &nbsp;
-              
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="//blog/2015/disqus-comments/">a post with disqus comments</a>
-        
-      </h3>
-      <p>an example of a blog post with disqus comments</p>
-      <p class="post-meta">
-        1 min read &nbsp; &middot; &nbsp;
-        October 20, 2015
-      </p>
-      <p class="post-tags">
-        <a href="//blog/2015">
-          <i class="fas fa-calendar fa-sm"></i> 2015 </a>
-
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="//blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-            <a href="//blog/category/external-services">
-              <i class="fas fa-tag fa-sm"></i> external-services</a> &nbsp;
-              
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="//blog/2015/math/">a post with math</a>
-        
-      </h3>
-      <p>an example of a blog post with some math</p>
-      <p class="post-meta">
-        1 min read &nbsp; &middot; &nbsp;
-        October 20, 2015
-      </p>
-      <p class="post-tags">
-        <a href="//blog/2015">
-          <i class="fas fa-calendar fa-sm"></i> 2015 </a>
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="//blog/tag/formatting">
-              <i class="fas fa-hashtag fa-sm"></i> formatting</a> &nbsp;
-              
-            <a href="//blog/tag/math">
-              <i class="fas fa-hashtag fa-sm"></i> math</a> &nbsp;
-              
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="//blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-          
-    </p>
-    </li>
-
-    
-  </ul>
-
-  <nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item ">
-      <a class="page-link" href="/blog/" tabindex="-1" aria-disabled="1">Newer</a>
-    </li><li class="page-item "><a class="page-link" href="/blog/index.html" title="blog">1</a></li>
-      <li class="page-item active"><a class="page-link" href="/blog/page/2/index.html" title="blog - page 2">2</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blog - page 3">3</a></li>
-      <li class="page-item ">
-      <a class="page-link" href="/blog/page/3/">Older</a>
-    </li>
-  </ul>
-</nav>
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="//blog/2021/distill/">a distill-style blog post</a>
+  </li>
 
 </div>
 
@@ -384,7 +227,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2023 Federico  Tramarin. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+        © Copyright 2023 Federico  Tramarin. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
 
       </div>
     </footer>
