@@ -1,1 +1,5 @@
 
+_bibliography/*.bib 
+_pages/about.md
+_pages/publications.md
+_pages/teaching.md

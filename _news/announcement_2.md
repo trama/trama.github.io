@@ -1,14 +1,19 @@
 ---
 layout: post
 title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+date: 2024-04-15 22:27:00+0100
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+This post would like to start a new path in the maintainance of this website
 
 ---
+
+It is a long time I would have a public space to share random stuffs, thoughts and ideas.
+Time is always very few and maintaining a website can be a hassle if you have not the right knowledge and the hands on the current technologies.
+
+I will try my best to keep this space updated, and feel free to reach out if you
 
 Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
 

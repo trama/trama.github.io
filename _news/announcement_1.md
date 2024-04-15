@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-04-15 22:27:00+0100
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+A simple inline announcement :sparkles: :sparkles: :sparkles: to say that the website is finally up and running again!
