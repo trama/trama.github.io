@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://trama.github.io/sitemap.xml
