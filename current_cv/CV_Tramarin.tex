@@ -1,0 +1,196 @@
+% !TeX spellcheck = en_US
+% !TEX TS-program = lualatex
+
+\documentclass[10pt, a4paper]{moderncv}
+%load personal tweaks to moderncv
+\usepackage{trama_customizations}
+
+% DOCUMENT PREAMBLE
+\setdoclang{it}{italian}
+%\setdoclang{en}{english}
+\addbibresource{scopus24052025.bib}
+\overfullrule=1mm
+\printbibliotrue
+% END DOCUMENT PREAMBLE
+
+\name{Federico}{Tramarin}
+\title{Curriculum Vit\ae{} et Studiorum}
+\email{federico.tramarin@unimore.it}
+\social[orcid]{0000-0001-6380-7897}
+\social[googlescholar]{5ml9v6kAAAAJ}
+\social[linkedin]{federico-tramarin}
+\social[github]{trama}
+\homepage{trama.github.io}
+\photo[2.5cm][0.4pt]{foto_fede_cv}
+%\quote{Associate Professor -- Università degli Studi di Modena e Reggio Emilia, Italy}
+
+\date{\today}
+\opening{To whom it may concern}
+\closing{Padova, \today}
+
+\begin{document}
+\thispagestyle{empty}
+%\enclosure[Attached]{Curriculum vit\ae{} et Studiorum}     % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+
+\makecvtitle
+% \vspace*{-2em}
+\nocite{*}
+
+%%%%%%%%%%%%%%%%%%
+%%%% PERSONAL DATA
+%%%%%%%%%%%%%%%%%%
+
+\sectioniten{Informazioni generali}{General Information}
+\input{cv_sections/general_info}
+
+%%%%%%%%%%%%%%%%%
+%%%%%%% EDUCATION
+%%%%%%%%%%%%%%%%%
+
+\sectioniten{Formazione accademica}{Academic education}
+\input{cv_sections/education}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%% BIBLIOMETRY
+%%%%%%%%%%%%%%%%%%%%%%
+
+\sectioniten{Dati bibliometrici}{Bibliometry}
+
+\cvtripleitem{\textbf{Scopus}}{{\footnotesize \langit{Aggiornato il}\langen{Updated}  08/04/2025}}{\langit{Citazioni}\langen{Citations}}{1147}{\emph{h}-index}{17}
+\cvtripleitem{\textbf{Google Scholar}}{{\footnotesize \langit{Aggiornato il}\langen{Updated}  08/04/2025}}{\langit{Citazioni}\langen{Citations}}{1632}{\emph{h}-index}{19}
+
+% %%%%%%%%%%%%%%%%%%%
+% %%% RESEARCH GRANTS
+% %%%%%%%%%%%%%%%%%%%
+% \sectioniten{Assegni di Ricerca conseguiti}{Research Grants}
+% \input{grants}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% RESEARCH PROGRAMS
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{cv_sections/research_projects}
+
+%%%%%%%%%%%%%%%%%%%
+%%% RESEARCH GROUPS
+%%%%%%%%%%%%%%%%%%%
+\input{cv_sections/research_groups}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% EDITORIAL ROLES
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{cv_sections/editorial_roles}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% CONFERENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{cv_sections/conference}
+%\input{conference_extra}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{cv_sections/awards}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{cv_sections/other_experiences}
+
+\ifLongVersion
+  \input{cv_sections/contracts}
+\fi
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% ACADEMIC ACTIVITIES
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{cv_sections/academic_activities}
+
+\ifLongVersion
+  %%%%%%%%%%%%%%%%%%%%%
+  %%%% ACADEMIC TEACHING
+  %%%%%%%%%%%%%%%%%%%%%
+  \sectioniten{Formale attribuzione di incarichi di insegnamento }{Academic Teaching Experience}
+  %
+  \input{cv_sections/didattica}
+
+  \langit{
+    \section{Commissioni di valutazione per Concorsi pubblici}
+    \cvitem{2023}{Il candidato è stato membro della commissione di selezione in 1 Procedura selettiva pubblica, per titoli ed esami, per la copertura di un’unità di Tecnologo a tempo determinato ex art. 24-bis, L. 240/2010 - categoria D,  da svolgere presso l'Università di modena e Reggio Emilia.\newline Estremi del bando: rep. nr. 149/2023 - prot. nr. 14010 del 20.1.2023}
+
+    \cvitem{2021 - presente}{Il candidato è stato membro della commissione di selezione in 12 bandi di concorso per assegni di ricerca da svolgere presso l'Università di modena e Reggio Emilia.\newline Estremi dei bandi: 2021-adrj064, 2021-adrj244, 2022-adrj114, FAR-adrj2/2022, 2023-adrj3, pnrr\_2023\_adrj6, 2023-adrj166, 2024-adrj94, 2024-adrj130, 2024-adrj386, 2024-adrs387, 2024-adrj396.}
+
+  }
+
+\fi
+
+%macro biblatex per selezionare solamente gli articoli pubblicati dopo un certo anno
+\defbibcheck{late}{
+  \iffieldint{year}
+    {\ifnumless{\thefield{year}}{2005}
+      {\skipentry}
+      {}
+    }
+    {
+      \skipentry
+    }
+}
+
+% macro biblatex per selezionare solamente gli articoli editoriali
+\defbibcheck{editorial}{
+  \iffieldequalstr{type}{Editorial}{}{\skipentry}
+}
+\defbibcheck{noteditorial}{
+  \iffieldequalstr{type}{Editorial}{\skipentry}{}
+}
+
+% to allow for better long url breaking
+\setcounter{biburlnumpenalty}{9000}
+\sectioniten{Produzione scientifica}{Scientific Publications}
+
+\ifprintbiblio
+  \langit{
+    \newrefcontext[labelprefix={J}]
+    \printbibliography[check=noteditorial,type=article,heading=subbibliography,title={Articoli pubblicati in Riviste Internazionali (JCR)}]
+    \newrefcontext[labelprefix={B}]
+    \printbibliography[check=late,type=book,heading=subbibliography,title={Capitoli di libro}]
+    \newrefcontext[labelprefix={E}]
+    \printbibliography[check=editorial,heading=subbibliography,title={Editoriali}]
+    % \newrefcontext[labelprefix={S}]
+    % \printbibliography[check=late,type=standard,heading=subbibliography,title={IEEE Standards}]
+    \newrefcontext[labelprefix={C}]
+    \printbibliography[check=late,type=inproceedings,heading=subbibliography,title={Articoli pubblicati in Atti di Conferenze Internazionali}]
+  % \printbibliography[keyword=proc_int,heading=subbibliography,title={Articoli pubblicati in Atti di Conferenze Internazionali}]
+  % \printbibliography[keyword=riv_ita,heading=subbibliography,title={Articoli pubblicati in Riviste Nazionali (non JCR)}]
+  % \printbibliography[keyword=proc_it,heading=subbibliography,title={Articoli pubblicati in Atti di Conferenze Nazionali}]
+  % \printbibliography[keyword=unpub,heading=subbibliography,title={Articoli sottomessi a riviste internazionali}]
+  }
+
+\langen{
+  \newrefcontext[labelprefix={J}]
+  \printbibliography[check=noteditorial,type=article,heading=subbibliography,title={Papers published in International Journals (JCR)}]
+  \newrefcontext[labelprefix={B}]
+  \printbibliography[check=late,type=book,heading=subbibliography,title={Chapters in Books}]
+  \newrefcontext[labelprefix={E}]
+  \printbibliography[check=editorial,heading=subbibliography,title={Editorials}]
+  % \newrefcontext[labelprefix={S}]
+  % \printbibliography[check=late,type=standard,heading=subbibliography,title={IEEE Standards}]
+  \newrefcontext[labelprefix={C}]
+  \printbibliography[check=late,type=inproceedings,heading=subbibliography,title={Papers published in International Conference Proceedings}]
+  }
+\else
+\textbf{Omissis}
+\bigskip
+\fi
+
+\langit{\emph{Ai sensi del D.lg. 196/2003 (tutela delle persone e di altri soggetti rispetto al trattamento dei dati personali), autorizzo il trattamento dei miei dati sopra riportati per gli usi consentiti dalla legge.}}
+\langen{\emph{In compliance with the Italian legislative Decree no. 196 dated 30/06/2003, I hereby authorize you to use and process my personal details contained in this document.}}
+
+\bigskip
+
+\makeletterclosing
+
+\includegraphics[width=0.35\textwidth]{sign.png}
+
+%\input{atto_notorieta}
+
+\end{document}
