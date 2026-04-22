@@ -48,28 +48,35 @@ cv:
           - GPA: 29.77/30
 
     Experience:
-      - company: University of Modena and Reggio Emilia
+      - company: Department of Management and Engineering (DTG), University of Padua, Italy
         position: Associate Professor
-        location: Department of Engineering "Enzo Ferrari" (DIEF), Modena, Italy
-        start_date: 2020-05
+        location: University of Padua, Italy
+        start_date: 2025-10-13
         end_date: present
         summary: Associate Professor in SC 09/IMIS-01 (ex SC 09/E4) with research and teaching responsibilities in measurements, industrial IoT, and cyber-physical systems.
 
-      - company: University of Padua
+      - company: Department of Engineering "Enzo Ferrari" (DIEF), University of Modena and Reggio Emilia, Italy
+        position: Associate Professor
+        location: UniMoRe, Italy
+        start_date: 2020-05
+        end_date: 2025-10-12
+        summary: Associate Professor in SC 09/IMIS-01 (ex SC 09/E4) with research and teaching responsibilities in measurements, industrial IoT, and cyber-physical systems.
+
+      - company: Department of Management and Engineering (DTG), University of Padua, Italy
         position: Assistant Professor (RTDa)
-        location: Department of Management and Engineering (DTG), Vicenza, Italy
+        location: University of Padua, Italy
         start_date: 2018-11
         end_date: 2020-04
 
       - company: National Research Council of Italy (CNR-IEIIT)
         position: Post-Doctoral Researcher
-        location: Italy
+        location: CNR-IEIIT, Italy
         start_date: 2013
         end_date: 2018
 
-      - company: University of Padua
+      - company: Department of Information Engineering, University of Padua
         position: Post-Doctoral Researcher
-        location: Department of Information Engineering, Padua, Italy
+        location: University of Padua, Italy
         start_date: 2012
         end_date: 2012
 
