@@ -1,0 +1,192 @@
+%% start of file `trama_customizations.sty'.
+%% Copyright 2025 Federico Tramarin (fedetx@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+%-------------------------------------------------------------------------------
+%                identification
+%-------------------------------------------------------------------------------
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{trama_customizations}[2025/03/07 Customizations for section headers for moderncv]
+%-------------------------------------------------------------------------------
+
+\moderncvcolor{red}
+\definecolor{color0}{rgb}{0,0,0}% black
+%\definecolor{color1}{RGB}{155,0, 20}% Red uniPD
+\definecolor{color1}{RGB}{193,76,49} % Red Unimore
+\definecolor{color2}{RGB}{0,51,102} % Red Unimore
+\moderncvstyle{classic}
+
+%% START PREAMBLE
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setmainlanguage{english}
+\setotherlanguage{italian}
+\defaultfontfeatures{Ligatures=TeX}
+%\setmainfont{TeX Gyre Heros}
+\setmainfont{Sina Nova Regular}[
+BoldFont = Sina Nova Bold ,
+ItalicFont = Sina Nova Italic,
+BoldItalicFont = Sina Nova Bold Italic,
+% FontFace = {l}{n}{Sina Nova Extra Light}, % this can be selected with \fontseries{l}\selectfont
+% FontFace = {l}{it}{Sina Nova Extra Light Italic},
+FontFace = {sb}{n}{Sina Nova Medium}, % this can be selected with \fontseries{sb}\selectfont
+FontFace = {sb}{it}{Sina Nova Medium Italic} ]
+
+\setsansfont{Helvetica Neue}[
+  FontFace = {sb}{n}{Helvetica Neue Medium}, % this can be selected with \fontseries{sb}\selectfont
+  FontFace = {sb}{it}{Helvetica Neue Medium Italic} ]
+
+\DeclareRobustCommand{\sbseries}{\fontseries{sb}\selectfont}
+%\DeclareTextFontCommand{\textsb}{\fontseries{sb}}
+
+\setmonofont[Numbers={OldStyle},Scale=0.85]{Menlo}
+%\setmathfont[math-style=TeX]{STIX Math}
+
+\usepackage{array,booktabs}
+\usepackage{geometry}
+\geometry{a4paper, margin=1cm,bottom=1.5cm}
+
+\usepackage[backend=biber,language=USenglish,style=ieee,defernumbers,sorting=ydnt]{biblatex}
+
+\DeclareFieldFormat{url}{\href{#1}{\addspace -- Collegamento diretto al prodotto su Scopus.}}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+% to have a gray rectangle under the photo on the first page
+\AddToHook{shipout/firstpage}
+{%
+  \put(0,-\paperheight)
+  {%
+  \tikz[remember picture,overlay]
+    {%
+    \fill[color2!10] (current page.north west) rectangle ++(\paperwidth,-4.6cm);
+    }%
+  }%
+}
+
+% command to set the main language
+\newcommand{\setdoclang}[2]{
+    \setmainlanguage{#2}
+    \ifthenelse{\equal{#2}{italian}}
+        {\setotherlanguage{english}}
+        {\setotherlanguage{italian}}%
+    \def\doclang{#2}
+    \def\doclangshort{#1}
+}
+
+\newif\ifLongVersion
+\LongVersionfalse
+
+% a switch to typeset only the piece of text that matches the current language
+% #1: the language to match
+% #2: the text to typeset if the language matches
+% #3: the text to typeset if the language does not match
+% if the language matches, the text is typeset, otherwise it is discarded
+\newcommand{\langif}[3]{
+    \ifthenelse{\equal{#1}{\doclang} \or \equal{#1}{\doclangshort}}
+        {#2}
+        {#3}%
+}
+
+% a switch to typeset the scientific publications
+\newif\ifprintbiblio
+\printbibliofalse
+
+%%% Sometimes we may need to suppress the content of the last
+%%% cventry element
+\newcommand{\shorterCventry}{
+\let\oldcventry\cventry
+\let\cventry\cventryshort}
+
+\newcommand{\longerCventry}{%
+\let\cventry\oldcventry}
+
+\newcommand*{\cventryshort}[7][.25em]{%
+    \cvitem[#1]{#2}{%
+    {\bfseries#3}%
+    \ifthenelse{\equal{#4}{}}{}{, {\slshape#4}}%
+    \ifthenelse{\equal{#5}{}}{}{, #5}%
+    \ifthenelse{\equal{#6}{}}{}{, #6}%
+    }
+}
+
+\newcommand{\switchLang}[2]{\langif{#1}{#2}{}}
+\newcommand{\langit}[1]{\switchLang{it}{#1}}
+\newcommand{\langen}[1]{\switchLang{en}{#1}}
+
+\newcommand{\cvitemen}[2]{\switchLang{en}{\cvitem{#1}{#2}}}
+\newcommand{\cvitemit}[2]{\switchLang{it}{\cvitem{#1}{#2}}}
+\newcommand{\cvdoubleitemen}[4]{\switchLang{en}{\cvdoubleitem{#1}{#2}{#3}{#4}}}
+\newcommand{\cvdoubleitemit}[4]{\switchLang{it}{\cvdoubleitem{#1}{#2}{#3}{#4}}}
+\newcommand{\cventryen}[6]{\switchLang{en}{\cventry{#1}{#2}{#3}{#4}{#5}{#6}}}
+\newcommand{\cventryit}[6]{\switchLang{it}{\cventry{#1}{#2}{#3}{#4}{#5}{#6}}}
+\newcommand{\sectionlang}[2]{\switchLang{#1}{\section{#2}}}
+\newcommand{\subsectionlang}[2]{\switchLang{#1}{\subsection{#2}}}
+\newcommand{\subsubsectionlang}[2]{\switchLang{#1}{\subsubsection{#2}}}
+\newcommand{\sectioniten}[2]{\sectionlang{it}{#1}\sectionlang{en}{#2}}
+\newcommand{\subsectioniten}[2]{\subsectionlang{it}{#1}\subsectionlang{en}{#2}}
+\newcommand{\subsubsectioniten}[2]{\subsubsectionlang{it}{#1}\subsubsectionlang{en}{#2}}
+
+\renewcommand*{\sectionfont}{\Large\bfseries\upshape}
+\renewcommand*{\subsectionfont}{\large\itshape\sbseries}
+\renewcommand*{\hintstyle}[1]{{\hintfont\sbseries\textcolor{hintstylecolor}{#1}}}
+
+\RenewDocumentCommand{\section}{sm}{%
+  \par\addvspace{3pt}%
+  \phantomsection{}% reset the anchor for hyperrefs
+  \addcontentsline{toc}{section}{#2}%
+  %\addvspace{-1mm}%
+  {\fboxsep1pt%
+  \colorbox{white}{%
+    \parbox[t][\totalheight][t]{\maincolumnwidth+\hintscolumnwidth}{% This will create a box with the desired height and width
+      %\strut\sectionstyle{\MakeUppercase{#2}}% This will print the title in uppercase
+      \strut\sectionstyle{#2}% This will print the title in uppercase
+      \par\nobreak%
+      \hspace{\hintscolumnwidth}%
+      \raisebox{6pt}[8pt][0pt]{% This will create a 8pt height box, and raise the box of 8pt
+        \mbox{\color{color2}\rule{\maincolumnwidth-8pt}{1pt}\rule{8pt}{8pt}}}%
+      }%
+    }%
+  }%
+  \par\nobreak\addvspace{-4pt}\@afterheading}% -4pt is to compensate for half of the 8 pt wasted space for the rules
+
+\RenewDocumentCommand{\subsection}{sm}{%
+  \par\addvspace{0ex}%
+  \phantomsection{}% reset the anchor for hyperrefs
+  \addcontentsline{toc}{subsection}{#2}%
+  {\fboxsep1pt%
+  \colorbox{white}{%
+    \parbox[t][\totalheight][t]{\maincolumnwidth+\hintscolumnwidth}{% This will create a box with the desired height and width
+      \strut\subsectionstyle{\underline{#2}}% This will print the title in uppercase
+      % \par\nobreak%
+      % % \hspace{\hintscolumnwidth}%
+      % \raisebox{8pt}[8pt][0pt]{% This will create a 8pt height box, and raise the box of 8pt
+      %   \mbox{\color{color2}\rule{\maincolumnwidth-8pt}{1pt}}%
+      % }%
+    }%
+  }%
+  }%
+  \par\nobreak\addvspace{0.5ex}\@afterheading}% to avoid a pagebreak after the heading
+
+\renewcommand*{\nopagenumbers}{\@displaypagenumbersfalse}
+\AtEndPreamble{%
+  \AtBeginDocument{%
+    \if@displaypagenumbers%
+      %\@ifundefined{r@lastpage}{}{%
+        %\ifthenelse{\pageref{lastpage}>1}{%
+           \fancypagestyle{plain}{%
+            \fancyfoot[r]{\parbox[b]{\linewidth}{\color{black!50}
+            {Prof. F. Tramarin, PhD} \rule{10cm}{.5pt}\hfill\itshape\strut\thepage%/\pageref{LastPage}
+            }}}% the parbox is required to ensure alignment with a possible center footer (e.g., as in the casual style)
+          \pagestyle{plain}%
+          %}{}%
+          %}%
+      \AtEndDocument{\clearpage\label{lastpage}}\else\fi%
+      }}
+
+%% end of file `trama_customizations.sty'.
