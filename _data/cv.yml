@@ -1,10 +1,10 @@
 cv:
   name: Federico Tramarin
   label: Associate Professor
-  email: federico.tramarin@unimore.it
-  location: Modena, Italy
+  email: federico.tramarin@unipd.it
+  location: Padua, Italy
   image: ""
-  summary: Associate Professor in measurement and industrial informatics at the University of Modena and Reggio Emilia, working on industrial IoT, time-sensitive networking, distributed measurement systems, and cyber-physical systems.
+  summary: Associate Professor in measurement and industrial informatics at the University of Padua, working on industrial IoT, time-sensitive networking, distributed measurement systems, and cyber-physical systems.
 
   social_networks:
     - network: GitHub
@@ -17,16 +17,16 @@ cv:
       username: 0000-0001-6380-7897
 
   address:
-    street: Via Pietro Vivarelli 10
-    city: Modena
-    region: MO
-    postalCode: "41125"
+    street: Stradella San Nicola, 3
+    city: Vicenza
+    region: PD
+    postalCode: "36100"
     countryCode: IT
 
   sections:
     Education:
-      - institution: University of Padova
-        location: Padova, Italy
+      - institution: University of Padua
+        location: Padua, Italy
         area: Information Science and Technologies
         studyType: PhD
         start_date: 2009
@@ -36,8 +36,8 @@ cv:
           - Defense date: 2012-04-19
           - Final grade: Excellent (Ottimo)
 
-      - institution: University of Padova
-        location: Padova, Italy
+      - institution: University of Padua
+        location: Padua, Italy
         area: Electronic Engineering
         studyType: Master's Degree
         start_date: 2006
@@ -55,7 +55,7 @@ cv:
         end_date: present
         summary: Associate Professor in SC 09/IMIS-01 (ex SC 09/E4) with research and teaching responsibilities in measurements, industrial IoT, and cyber-physical systems.
 
-      - company: University of Padova
+      - company: University of Padua
         position: Assistant Professor (RTDa)
         location: Department of Management and Engineering (DTG), Vicenza, Italy
         start_date: 2018-11
@@ -67,9 +67,9 @@ cv:
         start_date: 2013
         end_date: 2018
 
-      - company: University of Padova
+      - company: University of Padua
         position: Post-Doctoral Researcher
-        location: Department of Information Engineering, Padova, Italy
+        location: Department of Information Engineering, Padua, Italy
         start_date: 2012
         end_date: 2012
 
