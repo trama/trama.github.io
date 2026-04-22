@@ -9,7 +9,7 @@ last_name: Tramarin
 contact_note: >
   Email is the preferred way to get in touch for research collaborations and academic inquiries.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal academic website of Federico Tramarin, Associate Professor at the University of Modena and Reggio Emilia.
+  Personal academic website of Federico Tramarin, Associate Professor at the University of Padua, Italy.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -61,7 +61,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 1200px
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
@@ -91,7 +91,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
+blog_name: trama # blog_name will be displayed in your blog page
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
