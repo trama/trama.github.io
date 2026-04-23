@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "Academic CV of Federico Tramarin, including positions, education, projects, editorial roles, awards, and selected activities.",
@@ -518,7 +511,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%66%65%64%65%72%69%63%6F.%74%72%61%6D%61%72%69%6E@%75%6E%69%6D%6F%72%65.%69%74", "_blank");
+          window.open("mailto:%66%65%64%65%72%69%63%6F.%74%72%61%6D%61%72%69%6E@%75%6E%69%70%64.%69%74", "_blank");
         },
       },{
         id: 'social-github',
@@ -540,13 +533,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://orcid.org/0000-0001-6380-7897", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
         },
       },{
         id: 'social-scholar',
