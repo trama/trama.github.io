@@ -29,16 +29,30 @@ $grey-color-light: color.adjust($grey-color, $lightness: 40%);
 $grey-color-dark: #1c1c1d;
 $grey-900: #212529;
 
+$red-unipd: #b20e10 !default;
+$red-unipd-light: #d12429 !default;
+$red-unipd-dark: #a1161a !default;
+$red-unipd-darkest: #600724 !default;
+
+$grey-unipd: #4d4d4d !default;
+$grey-unipd-lightest: #9ba4b2 !default;
+$grey-unipd-light: #637082 !default;
+$grey-unipd-dark: #293745 !default;
+$grey-unipd-blue: #375b76 !default;
+
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
 // Theme colors
 
-$code-bg-color-light: rgba($red-color-dark, 0.05);
+$code-bg-color-light: rgba($purple-color, 0.05);
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location
 $fa-font-path: "../webfonts";
+
+// Base typography
+$base-font-family: Georgia, "Times New Roman", Times, serif !default;
 
 // Back To Top button config
 $back-to-top-z-index: 10;

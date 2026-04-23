@@ -2,18 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: Associate Professor, Department of Engineering "Enzo Ferrari", University of Modena and Reggio Emilia
+subtitle: Associate Professor in Instrumentatino and Measurements, *IEEE Senior Member*
 
 profile:
   align: right
   image: federico-tramarin.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Department of Engineering "Enzo Ferrari" (DIEF)</p>
-    <p>University of Modena and Reggio Emilia</p>
-    <p>Via Pietro Vivarelli 10, Modena, Italy</p>
+    <p>Department of Management and Engineering</p>
+    <p>University of Padua</p>
+    <p>Stradella San Nicola 3, Vicenza, Italy</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -26,8 +26,9 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am an Associate Professor in measurement and industrial informatics at the Department of Engineering "Enzo Ferrari" (DIEF), University of Modena and Reggio Emilia.
 
-My research focuses on industrial IoT, Time-Sensitive Networking, distributed measurement systems, and cyber-physical systems for factory automation and smart environments. I work on both methodological and experimental aspects, including metrological characterization in hybrid wired/wireless scenarios.
+Federico Tramarin (S’08, M’12, SM’24) is an Associate Professor with the Department of Management and Engineering, University of Padova, Italy. He received the M.Sc. degree in Electronic Engineering and the Ph.D. degree in Information Engineering from the University of Padova, Italy, in 2008 and 2012. From 2020 to 2025, he was an Associate Professor at the University of Modena and Reggio Emilia, Italy.
 
-I am actively involved in international research collaborations and editorial activities in the IEEE Instrumentation and Measurement and industrial informatics communities, with ongoing responsibilities in project coordination, conference organization, and PhD supervision.
+His research focuses on networked measurement systems and Internet of Things (IoT) instrumentation. His research interests include industrial real-time communication systems, wired and wireless industrial networks, Time-Sensitive Networking (TSN), measurement-based analysis of cyber-physical and industrial automation systems, and the application of artificial intelligence and machine learning techniques to measurement, monitoring, and performance assessment.
+
+Prof. Tramarin serves as Associate Editor for the IEEE Open Journal of Instrumentation and Measurement and the IEEE Transactions on Industrial Informatics, and is a member of the Editorial Boards of other international journals. He is an active member of the IEEE Instrumentation and Measurement Society Technical Committee TC-37 (Measurements and Networking) and the IEEE Industrial Electronics Society Technical Committee on Factory Automation (TCFA). He has contributed to the organization and technical coordination of several IEEE international conferences, including I2MTC, M&N, ETFA, and MetroAutomotive. He is the author or co-author of more than 110 peer-reviewed publications in international journals and conference proceedings.
