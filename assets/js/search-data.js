@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
+          description: "Teaching portfolio with current and previous university courses.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -489,16 +489,66 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+            },},{id: "teachings-advanced-sensors-for-electric-vehicles",
+          title: 'Advanced Sensors for Electric Vehicles',
+          description: "Responsibility for the integrated course (6 ECTS) and coordinator of a 3 ECTS module (30 hours).",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
+              window.location.href = "/teachings/advanced-sensors-for-electric-vehicles/";
+            },},{id: "teachings-circuit-electronics-laboratory",
+          title: 'Circuit Electronics Laboratory',
+          description: "Module responsibility for 1 ECTS (16 hours) in the BSc in Electronic Engineering.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
+              window.location.href = "/teachings/circuit-electronics-laboratory/";
+            },},{id: "teachings-connections-and-networks-rs-232-lan-fundamentals-of-field-buses",
+          title: 'Connections and Networks, RS-232, LAN, Fundamentals of Field Buses',
+          description: "Course responsibility (10 teaching hours) in teacher training programs for secondary schools.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/connections-and-networks-rs232-lan-field-buses/";
+            },},{id: "teachings-controllers-and-industrial-communication-networks",
+          title: 'Controllers and Industrial Communication Networks',
+          description: "Course responsibility for 6 ECTS in the BSc in Mechatronic Engineering.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/controllers-and-industrial-communication-networks/";
+            },},{id: "teachings-electronic-measurements-and-laboratory",
+          title: 'Electronic Measurements and Laboratory',
+          description: "Module responsibility for 2 ECTS (30 hours) in the BSc in Electronic Engineering.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/electronic-measurements-and-laboratory/";
+            },},{id: "teachings-embedded-systems-programming",
+          title: 'Embedded Systems Programming',
+          description: "Course responsibility for 9 ECTS in the MSc in Mechatronic Engineering.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/embedded-systems-programming/";
+            },},{id: "teachings-foundations-of-computer-science",
+          title: 'Foundations of Computer Science',
+          description: "Course responsibility for 9 ECTS in the BSc in Mechatronic Engineering.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/foundations-of-computer-science/";
+            },},{id: "teachings-hardware-and-software-co-design",
+          title: 'Hardware and Software Co-Design',
+          description: "Module responsibility for 2 ECTS (16 hours) within a 12 ECTS MSc course.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/hardware-software-co-design/";
+            },},{id: "teachings-industrial-communication-networks",
+          title: 'Industrial Communication Networks',
+          description: "Course responsibility for 6 ECTS in BSc programs in Mechanical and Mechatronic Engineering.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/industrial-communication-networks/";
+            },},{id: "teachings-industrial-measurements",
+          title: 'Industrial Measurements',
+          description: "Course responsibility for 9 ECTS (72 hours) in the MSc in Electronics Engineering.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/industrial-measurements/";
+            },},{id: "teachings-methods-measurement-techniques-and-sensors",
+          title: 'Methods, Measurement Techniques, and Sensors',
+          description: "Course responsibility for 6 ECTS (48 hours) in the interuniversity BSc in Medical Systems Engineering for the Person.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/methods-measurement-techniques-and-sensors/";
+            },},{id: "teachings-signal-generation-acquisition-processing-and-distribution",
+          title: 'Signal Generation, Acquisition, Processing, and Distribution',
+          description: "Course responsibility (10 teaching hours) in teacher training programs for secondary schools.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/signal-generation-acquisition-processing-distribution/";
             },},{
         id: 'social-cv',
         title: 'CV',
