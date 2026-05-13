@@ -42,6 +42,15 @@ a.btncv:hover {
  * CV TIME_TABLE styles
  *****************************/
 
+/* Override timeline column centering so date/location are left-justified. */
+.cv .date-column,
+.cv .date-column table,
+.cv .date-column td,
+.cv .date-column .badge,
+.cv .date-column .location {
+  text-align: left !important;
+}
+
 p.location {
   font-size: 0.7rem;
   white-space: nowrap;

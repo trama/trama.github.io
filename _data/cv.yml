@@ -4,7 +4,7 @@ cv:
   email: federico.tramarin@unipd.it
   location: Padua, Italy
   image: ""
-  summary: Associate Professor in measurement and industrial informatics at the University of Padua, working on industrial IoT, time-sensitive networking, distributed measurement systems, and cyber-physical systems.
+  summary: Associate Professor in instrumentation and measurement at the University of Padua (since 2025), working on industrial IoT, time-sensitive networking, distributed measurement systems, and cyber-physical systems.
 
   social_networks:
     - network: GitHub
@@ -27,14 +27,15 @@ cv:
     Education:
       - institution: University of Padua
         location: Padua, Italy
-        area: Information Science and Technologies
+        area: Information Engineering (ICT)
         studyType: PhD
         start_date: 2009
         end_date: 2011
+        score: "Excellent (Ottimo)"
         courses: "Thesis: Industrial Wireless Sensor Networks. Simulation and measurements in an interfering environment"
         highlights:
-          - Defense date: 2012-04-19
-          - Final grade: Excellent (Ottimo)
+          - Defense date -> 2012-04-19
+          - Final grade -> Excellent (Ottimo)
 
       - institution: University of Padua
         location: Padua, Italy
@@ -42,10 +43,11 @@ cv:
         studyType: Master's Degree
         start_date: 2006
         end_date: 2008
+        score: "110/110 cum laude"
         courses: "Thesis: Cross-Layer Analysis of Interfering Wireless Sensors Networks"
         highlights:
-          - Final grade: 110/110 cum laude
-          - GPA: 29.77/30
+          - Final grade -> "110/110 cum laude"
+          - GPA -> "29.77/30"
 
     Experience:
       - company: Department of Management and Engineering (DTG), University of Padua, Italy
@@ -84,44 +86,48 @@ cv:
       - name: SILENS
         summary: IoT solutions for navigation, logistics, and smart vessel ergonomics services.
         highlights:
-          - Role: Head of Research Unit (UNIMORE).
-          - Funding: EUR 277,783.75 (I-NEST, PNRR, NextGenerationEU).
+          - "Role: Head of Research Unit (UNIMORE)"
+          - "Funding: EUR 277,783.75 (I-NEST, PNRR, NextGenerationEU)"
         start_date: 2024-11
-        end_date: present
+        end_date: 2025-10
 
       - name: MESMET
         summary: Time Sensitive Networking for enabling technologies with metrological characterization in hybrid wired/wireless scenarios.
         highlights:
-          - Role: Head of Research Unit (UNIMORE).
-          - Funding: EUR 232,000 (PRIN2022-PNRR, project P2022JMKEN).
+          - "Role: Head of Research Unit (UNIMORE)"
+          - "Funding: EUR 232,000 (PRIN2022-PNRR, project P2022JMKEN)"
         start_date: 2023-11
-        end_date: present
+        end_date: 2026-02
 
       - name: BRIC ID21-22
         summary: Monitoring system for air concentrations and soil emissions of volatile compounds.
         highlights:
-          - Role: Member of Research Unit.
-          - Funding: EUR 420,000.
+          - "Role: Member of Research Unit"
+          - "Funding: EUR 420,000"
         start_date: 2023-06
-        end_date: present
+        end_date: 2025-06
 
       - name: SHeMS
         summary: Smart Healthcare Modular System for personalized remote health monitoring.
         highlights:
-          - Role: Principal Investigator.
-          - Funding: EUR 74,000.
+          - "Role: Principal Investigator"
+          - "Funding: EUR 74,000"
         start_date: 2021
         end_date: 2023
 
       - name: INTERACT
         summary: Industrial IoT architectures and algorithms for time-critical cyber-physical systems.
         highlights:
-          - Role: Principal Investigator.
-          - Funding: EUR 41,000.
+          - "Role: Principal Investigator"
+          - "Funding: EUR 41,000"
         start_date: 2019
         end_date: 2021
 
     Awards:
+      - title: Outstanding Associate Editor
+        date: 2026
+        awarder: IEEE Open Journal of Instrumentation and Measurement
+
       - title: IEEE Senior Member
         date: 2024-07-05
         awarder: IEEE Admission and Advancement Committee
@@ -132,6 +138,10 @@ cv:
 
       - title: Outstanding Reviewer
         date: 2015
+        awarder: IEEE Transactions on Instrumentation and Measurement
+
+      - title: Outstanding Reviewer
+        date: 2014
         awarder: IEEE Transactions on Instrumentation and Measurement
 
       - title: Best Conference Paper Award
@@ -159,15 +169,25 @@ cv:
         end_date: present
 
     Academic Service:
+      - company: University of Padua
+        position: Member, International Students Admission Committee (MSc in Mechatronics Engineering)
+        start_date: 2026
+        end_date: present
+
       - company: University of Modena and Reggio Emilia
         position: Member, PhD Program Quality Assurance Committee (ICT)
         start_date: 2024
-        end_date: present
+        end_date: 2025
 
       - company: University of Modena and Reggio Emilia
         position: Member, Department Quality Assurance Committee
         start_date: 2020
-        end_date: present
+        end_date: 2025
+
+      - company: University of Modena and Reggio Emilia
+        position: Responsible, Master's and Bachelor's Degrees Quality Assurance Committee (Electronics Engineering)
+        start_date: 2020
+        end_date: 2025
 
       - company: University of Modena and Reggio Emilia
         position: Member, PhD Faculty Board (ICT)
@@ -177,7 +197,7 @@ cv:
       - company: University of Bologna
         position: Member, Internship and Didactic Committees (MSc in Electric Vehicle Engineering)
         start_date: 2020
-        end_date: present
+        end_date: 2025
 
     Professional Memberships:
       - name: IEEE

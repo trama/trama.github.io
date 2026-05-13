@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Associate Professor in Instrumentatino and Measurements, *IEEE Senior Member*
+subtitle: Associate Professor in Instrumentation and Measurement, *IEEE Senior Member*
 
 profile:
   align: right
@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Federico Tramarin (S’08, M’12, SM’24) is an Associate Professor with the Department of Management and Engineering, University of Padova, Italy. He received the M.Sc. degree in Electronic Engineering and the Ph.D. degree in Information Engineering from the University of Padova, Italy, in 2008 and 2012. From 2020 to 2025, he was an Associate Professor at the University of Modena and Reggio Emilia, Italy.
+Federico Tramarin (S'08, M'12, SM'24) is an Associate Professor with the Department of Management and Engineering, University of Padua, Italy (since October 2025). He received the M.Sc. degree in Electronic Engineering (2008) and the Ph.D. degree in Information Science and Technologies (defended in 2012) from the University of Padua, Italy. From 2020 to 2025, he was Associate Professor at the University of Modena and Reggio Emilia, and from 2018 to 2020 he was Assistant Professor (RTDa) at the University of Padua.
 
-His research focuses on networked measurement systems and Internet of Things (IoT) instrumentation. His research interests include industrial real-time communication systems, wired and wireless industrial networks, Time-Sensitive Networking (TSN), measurement-based analysis of cyber-physical and industrial automation systems, and the application of artificial intelligence and machine learning techniques to measurement, monitoring, and performance assessment.
+His research focuses on networked measurement systems and Internet of Things (IoT) instrumentation. His research interests include industrial real-time communication systems, wired and wireless industrial networks, Time-Sensitive Networking (TSN), measurement-based analysis of cyber-physical and industrial automation systems, and the use of artificial intelligence and machine learning techniques for measurement, monitoring, and performance assessment.
 
-Prof. Tramarin serves as Associate Editor for the IEEE Open Journal of Instrumentation and Measurement and the IEEE Transactions on Industrial Informatics, and is a member of the Editorial Boards of other international journals. He is an active member of the IEEE Instrumentation and Measurement Society Technical Committee TC-37 (Measurements and Networking) and the IEEE Industrial Electronics Society Technical Committee on Factory Automation (TCFA). He has contributed to the organization and technical coordination of several IEEE international conferences, including I2MTC, M&N, ETFA, and MetroAutomotive. He is the author or co-author of more than 110 peer-reviewed publications in international journals and conference proceedings.
+Prof. Tramarin serves as Associate Editor for the IEEE Open Journal of Instrumentation and Measurement and the IEEE Transactions on Industrial Informatics, and is a member of editorial boards of international journals. He is an active member of the IEEE Instrumentation and Measurement Society Technical Committee TC-37 (Measurements and Networking) and the IEEE Industrial Electronics Society Technical Committee on Factory Automation (TCFA). He has contributed to the organization and technical coordination of several IEEE international conferences, including I2MTC, M&N, ETFA, and MetroAutomotive. He is the author or co-author of more than 110 peer-reviewed publications in international journals and conference proceedings, and received the Outstanding Associate Editor award from IEEE OJIM in 2026.
