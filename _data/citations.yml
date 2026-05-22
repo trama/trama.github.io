@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-01'
+  last_updated: '2026-05-22'
 papers:
   5ml9v6kAAAAJ:-f6ydRqryjwC:
     citations: 3
@@ -38,7 +38,7 @@ papers:
     title: Enhancing the real-time behavior of IEEE 802.11 n
     year: '2015'
   5ml9v6kAAAAJ:4OULZ7Gr8RgC:
-    citations: 54
+    citations: 55
     title: Functional safety networks and protocols in the industrial internet of things era
     year: '2021'
   5ml9v6kAAAAJ:4TOpqqG69KYC:
@@ -50,7 +50,7 @@ papers:
     title: 'Time sensitive networking for future enabling technologies: Overview and measurement issues for metrological characterization'
     year: '2024'
   5ml9v6kAAAAJ:5Ul4iDaHHb8C:
-    citations: 3
+    citations: 4
     title: 'IEEE 1588 (PTP) over mmWave 5G NR: preliminary assessment of the synchronization accuracy for TSN applications'
     year: '2024'
   5ml9v6kAAAAJ:5nxA0vEk-isC:
@@ -58,7 +58,7 @@ papers:
     title: Estimation and analysis of communication service time in a real-time wireless industrial network
     year: '2013'
   5ml9v6kAAAAJ:5ugPr518TE4C:
-    citations: 2
+    citations: 3
     title: 'Bridging real-time CAN networks with in-vehicle single-pair ethernet: A time-sensitive networking approach'
     year: '2025'
   5ml9v6kAAAAJ:70eg2SAEIzsC:
@@ -66,7 +66,7 @@ papers:
     title: Assessment of different OPC UA industrial IoT solutions for distributed measurement applications
     year: '2020'
   5ml9v6kAAAAJ:738O_yMBCRsC:
-    citations: 9
+    citations: 10
     title: Time-sensitive networking to improve the performance of distributed functional safety systems implemented over wi-fi
     year: '2023'
   5ml9v6kAAAAJ:8AbLer7MMksC:
@@ -102,7 +102,7 @@ papers:
     title: 'Artificial intelligence-based measurement systems for automotive: A comprehensive review'
     year: '2022'
   5ml9v6kAAAAJ:D03iK_w7-QYC:
-    citations: 9
+    citations: 10
     title: A simple Maxwellian optical system to investigate the photoreceptors contribution to pupillary light reflex
     year: '2022'
   5ml9v6kAAAAJ:D_sINldO8mEC:
@@ -122,7 +122,7 @@ papers:
     title: IEEE 802.11 n for Distributed Measurement Systems
     year: '2017'
   5ml9v6kAAAAJ:HoB7MX3m0LUC:
-    citations: 49
+    citations: 50
     title: Assessment of different OPC UA implementations for industrial IoT-based measurement applications
     year: '2020'
   5ml9v6kAAAAJ:IjCSPb-OGe4C:
@@ -178,7 +178,7 @@ papers:
     title: "Tecniche di adattamento automatico della velocit\xE0 di trasmissione per reti di comunicazione industriale basate su IEEE 802.11"
     year: '2012'
   5ml9v6kAAAAJ:NhqRSupF_l8C:
-    citations: 4
+    citations: 5
     title: Assessment of a vision-based technique for an automatic van herick measurement system
     year: '2022'
   5ml9v6kAAAAJ:O3NaXMp0MMsC:
@@ -394,7 +394,7 @@ papers:
     title: "Embedded systems for time\u2013critical applications over Wi-Fi: design and experimental assessment"
     year: '2019'
   5ml9v6kAAAAJ:hqOjcs7Dif8C:
-    citations: 79
+    citations: 80
     title: 'Industrial wireless networks: The significance of timeliness in communication systems'
     year: '2013'
   5ml9v6kAAAAJ:iH-uZ7U-co4C:
@@ -406,7 +406,7 @@ papers:
     title: A graph-based approach for mobile localization exploiting real and virtual landmarks
     year: '2018'
   5ml9v6kAAAAJ:j3f4tGmQtD8C:
-    citations: 142
+    citations: 143
     title: On the use of LoRaWAN for indoor industrial IoT applications
     year: '2018'
   5ml9v6kAAAAJ:k_IJM867U9cC:
@@ -498,11 +498,11 @@ papers:
     title: Measurement method for end-to-end Time synchronization of wired and wireless TSN
     year: '2023'
   5ml9v6kAAAAJ:uWQEDVKXjbEC:
-    citations: 33
+    citations: 34
     title: 'Driver drowsiness detection: A machine learning approach on skin conductance'
     year: '2023'
   5ml9v6kAAAAJ:u_35RYKgDlwC:
-    citations: 19
+    citations: 20
     title: 'Adaptive LoRaWAN transmission exploiting reinforcement learning: The industrial case'
     year: '2021'
   5ml9v6kAAAAJ:ufrVoPGSRksC:
@@ -522,11 +522,11 @@ papers:
     title: 'A low-cost TSN-based embedded measurement system: Synchronization accuracy assessment'
     year: '2025'
   5ml9v6kAAAAJ:xtRiw3GOFMkC:
-    citations: 1
+    citations: 2
     title: "On the Use of Artificial Intelligence and Sensor Fusion to Develop Accurate Eye Tracking and Driver\u2019s Emotional State Estimation Systems"
     year: '2022'
   5ml9v6kAAAAJ:yD5IFk8b50cC:
-    citations: 91
+    citations: 94
     title: A comprehensive review on time sensitive networks with a special focus on its applicability to industrial smart and distributed measurement systems
     year: '2022'
   5ml9v6kAAAAJ:zA6iFVUQeVQC:
