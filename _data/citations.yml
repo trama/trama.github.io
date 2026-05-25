@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-22'
+  last_updated: '2026-05-25'
 papers:
   5ml9v6kAAAAJ:-f6ydRqryjwC:
     citations: 3
@@ -42,7 +42,7 @@ papers:
     title: Functional safety networks and protocols in the industrial internet of things era
     year: '2021'
   5ml9v6kAAAAJ:4TOpqqG69KYC:
-    citations: 32
+    citations: 31
     title: An energy efficient ethernet strategy based on traffic prediction and shaping
     year: '2016'
   5ml9v6kAAAAJ:4fKUyHm3Qg0C:
@@ -122,7 +122,7 @@ papers:
     title: IEEE 802.11 n for Distributed Measurement Systems
     year: '2017'
   5ml9v6kAAAAJ:HoB7MX3m0LUC:
-    citations: 50
+    citations: 51
     title: Assessment of different OPC UA implementations for industrial IoT-based measurement applications
     year: '2020'
   5ml9v6kAAAAJ:IjCSPb-OGe4C:
@@ -394,7 +394,7 @@ papers:
     title: "Embedded systems for time\u2013critical applications over Wi-Fi: design and experimental assessment"
     year: '2019'
   5ml9v6kAAAAJ:hqOjcs7Dif8C:
-    citations: 80
+    citations: 81
     title: 'Industrial wireless networks: The significance of timeliness in communication systems'
     year: '2013'
   5ml9v6kAAAAJ:iH-uZ7U-co4C:
@@ -406,7 +406,7 @@ papers:
     title: A graph-based approach for mobile localization exploiting real and virtual landmarks
     year: '2018'
   5ml9v6kAAAAJ:j3f4tGmQtD8C:
-    citations: 143
+    citations: 142
     title: On the use of LoRaWAN for indoor industrial IoT applications
     year: '2018'
   5ml9v6kAAAAJ:k_IJM867U9cC:
@@ -498,11 +498,11 @@ papers:
     title: Measurement method for end-to-end Time synchronization of wired and wireless TSN
     year: '2023'
   5ml9v6kAAAAJ:uWQEDVKXjbEC:
-    citations: 34
+    citations: 35
     title: 'Driver drowsiness detection: A machine learning approach on skin conductance'
     year: '2023'
   5ml9v6kAAAAJ:u_35RYKgDlwC:
-    citations: 20
+    citations: 19
     title: 'Adaptive LoRaWAN transmission exploiting reinforcement learning: The industrial case'
     year: '2021'
   5ml9v6kAAAAJ:ufrVoPGSRksC:
