@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-25'
+  last_updated: '2026-05-29'
 papers:
   5ml9v6kAAAAJ:-f6ydRqryjwC:
     citations: 3
@@ -10,7 +10,7 @@ papers:
     title: 'Characterization of microgrid smart metering: Phasor estimation under impaired conditions'
     year: '2013'
   5ml9v6kAAAAJ:1sJd4Hv_s6UC:
-    citations: 40
+    citations: 41
     title: Driver drowsiness detection based on variation of skin conductance from wearable device
     year: '2022'
   5ml9v6kAAAAJ:2P1L_qKh6hAC:
@@ -42,7 +42,7 @@ papers:
     title: Functional safety networks and protocols in the industrial internet of things era
     year: '2021'
   5ml9v6kAAAAJ:4TOpqqG69KYC:
-    citations: 31
+    citations: 32
     title: An energy efficient ethernet strategy based on traffic prediction and shaping
     year: '2016'
   5ml9v6kAAAAJ:4fKUyHm3Qg0C:
