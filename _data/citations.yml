@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-29'
+  last_updated: '2026-06-03'
 papers:
   5ml9v6kAAAAJ:-f6ydRqryjwC:
     citations: 3
@@ -14,7 +14,7 @@ papers:
     title: Driver drowsiness detection based on variation of skin conductance from wearable device
     year: '2022'
   5ml9v6kAAAAJ:2P1L_qKh6hAC:
-    citations: 8
+    citations: 9
     title: "Evaluation of LoRaWAN for sensor data collection in an IIoT\u2013based additive manufacturing project"
     year: '2020'
   5ml9v6kAAAAJ:2osOgNQ5qMEC:
@@ -121,6 +121,10 @@ papers:
     citations: 2
     title: IEEE 802.11 n for Distributed Measurement Systems
     year: '2017'
+  5ml9v6kAAAAJ:HE397vMXCloC:
+    citations: 0
+    title: "Evaluation of a Quantized 1D-CNN for Real-Time ECG Arrhythmia Classification on a Low\u2013Power Embedded System"
+    year: Unknown Year
   5ml9v6kAAAAJ:HoB7MX3m0LUC:
     citations: 51
     title: Assessment of different OPC UA implementations for industrial IoT-based measurement applications
@@ -265,6 +269,10 @@ papers:
     citations: 35
     title: 'Performance of industrial communication systems: Real application contexts'
     year: '2012'
+  5ml9v6kAAAAJ:WA5NYHcadZ8C:
+    citations: 0
+    title: Modeling Time Synchronization Uncertainties in Networked Control of Trustworthy Autonomous Ground Vehicles
+    year: Unknown Year
   5ml9v6kAAAAJ:WbkHhVStYXYC:
     citations: 0
     title: Exploiting Blood Volume Pulse and Skin Conductance for Driver Drowsiness Detection
@@ -430,7 +438,7 @@ papers:
     title: Improved Rate Adaptation strategies for real-time industrial IEEE 802.11 n WLANs
     year: '2015'
   5ml9v6kAAAAJ:maZDTaKrznsC:
-    citations: 105
+    citations: 106
     title: 'Real-time and reliable industrial control over wireless lans: Algorithms, protocols, and future directions'
     year: '2019'
   5ml9v6kAAAAJ:mvPsJ3kp5DgC:
@@ -494,7 +502,7 @@ papers:
     title: Retransmission strategies for cyclic polling over wireless channels in the presence of interference
     year: '2010'
   5ml9v6kAAAAJ:u9iWguZQMMsC:
-    citations: 17
+    citations: 18
     title: Measurement method for end-to-end Time synchronization of wired and wireless TSN
     year: '2023'
   5ml9v6kAAAAJ:uWQEDVKXjbEC:
@@ -518,7 +526,7 @@ papers:
     title: Ethernet powerlink
     year: '2015'
   5ml9v6kAAAAJ:wbdj-CoPYUoC:
-    citations: 1
+    citations: 2
     title: 'A low-cost TSN-based embedded measurement system: Synchronization accuracy assessment'
     year: '2025'
   5ml9v6kAAAAJ:xtRiw3GOFMkC:
@@ -526,7 +534,7 @@ papers:
     title: "On the Use of Artificial Intelligence and Sensor Fusion to Develop Accurate Eye Tracking and Driver\u2019s Emotional State Estimation Systems"
     year: '2022'
   5ml9v6kAAAAJ:yD5IFk8b50cC:
-    citations: 94
+    citations: 93
     title: A comprehensive review on time sensitive networks with a special focus on its applicability to industrial smart and distributed measurement systems
     year: '2022'
   5ml9v6kAAAAJ:zA6iFVUQeVQC:
