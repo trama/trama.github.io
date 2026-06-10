@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-03'
+  last_updated: '2026-06-10'
 papers:
   5ml9v6kAAAAJ:-f6ydRqryjwC:
     citations: 3
@@ -10,7 +10,7 @@ papers:
     title: 'Characterization of microgrid smart metering: Phasor estimation under impaired conditions'
     year: '2013'
   5ml9v6kAAAAJ:1sJd4Hv_s6UC:
-    citations: 41
+    citations: 42
     title: Driver drowsiness detection based on variation of skin conductance from wearable device
     year: '2022'
   5ml9v6kAAAAJ:2P1L_qKh6hAC:
@@ -42,7 +42,7 @@ papers:
     title: Functional safety networks and protocols in the industrial internet of things era
     year: '2021'
   5ml9v6kAAAAJ:4TOpqqG69KYC:
-    citations: 32
+    citations: 31
     title: An energy efficient ethernet strategy based on traffic prediction and shaping
     year: '2016'
   5ml9v6kAAAAJ:4fKUyHm3Qg0C:
@@ -102,7 +102,7 @@ papers:
     title: 'Artificial intelligence-based measurement systems for automotive: A comprehensive review'
     year: '2022'
   5ml9v6kAAAAJ:D03iK_w7-QYC:
-    citations: 10
+    citations: 9
     title: A simple Maxwellian optical system to investigate the photoreceptors contribution to pupillary light reflex
     year: '2022'
   5ml9v6kAAAAJ:D_sINldO8mEC:
@@ -110,7 +110,7 @@ papers:
     title: Message from the Conference Chairs
     year: '2024'
   5ml9v6kAAAAJ:EUQCXRtRnyEC:
-    citations: 22
+    citations: 21
     title: An IoT measurement system based on LoRaWAN for additive manufacturing
     year: '2022'
   5ml9v6kAAAAJ:GnPB-g6toBAC:
@@ -126,7 +126,7 @@ papers:
     title: "Evaluation of a Quantized 1D-CNN for Real-Time ECG Arrhythmia Classification on a Low\u2013Power Embedded System"
     year: Unknown Year
   5ml9v6kAAAAJ:HoB7MX3m0LUC:
-    citations: 51
+    citations: 52
     title: Assessment of different OPC UA implementations for industrial IoT-based measurement applications
     year: '2020'
   5ml9v6kAAAAJ:IjCSPb-OGe4C:
@@ -226,7 +226,7 @@ papers:
     title: Tuning of IEEE 802.11 MAC for improving real-time in industrial wireless networks
     year: '2012'
   5ml9v6kAAAAJ:SeFeTyx0c_EC:
-    citations: 4
+    citations: 5
     title: "Guest editorial: Industrial cyber\u2013physical systems\u2014New trends in computing and communications"
     year: '2021'
   5ml9v6kAAAAJ:TFP_iSt0sucC:
@@ -390,7 +390,7 @@ papers:
     title: Rate adaptation by reinforcement learning for Wi-Fi industrial networks
     year: '2020'
   5ml9v6kAAAAJ:geHnlv5EZngC:
-    citations: 9
+    citations: 10
     title: '5g-enabled pmu-based distributed measurement systems: Network infrastructure optimization and scalability analysis'
     year: '2024'
   5ml9v6kAAAAJ:hFOr9nPyWt4C:
@@ -414,7 +414,7 @@ papers:
     title: A graph-based approach for mobile localization exploiting real and virtual landmarks
     year: '2018'
   5ml9v6kAAAAJ:j3f4tGmQtD8C:
-    citations: 142
+    citations: 144
     title: On the use of LoRaWAN for indoor industrial IoT applications
     year: '2018'
   5ml9v6kAAAAJ:k_IJM867U9cC:
@@ -506,11 +506,11 @@ papers:
     title: Measurement method for end-to-end Time synchronization of wired and wireless TSN
     year: '2023'
   5ml9v6kAAAAJ:uWQEDVKXjbEC:
-    citations: 35
+    citations: 37
     title: 'Driver drowsiness detection: A machine learning approach on skin conductance'
     year: '2023'
   5ml9v6kAAAAJ:u_35RYKgDlwC:
-    citations: 19
+    citations: 20
     title: 'Adaptive LoRaWAN transmission exploiting reinforcement learning: The industrial case'
     year: '2021'
   5ml9v6kAAAAJ:ufrVoPGSRksC:
