@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-10'
+  last_updated: '2026-07-03'
 papers:
   5ml9v6kAAAAJ:-f6ydRqryjwC:
     citations: 3
@@ -18,7 +18,7 @@ papers:
     title: "Evaluation of LoRaWAN for sensor data collection in an IIoT\u2013based additive manufacturing project"
     year: '2020'
   5ml9v6kAAAAJ:2osOgNQ5qMEC:
-    citations: 16
+    citations: 17
     title: Influence of real components behavior on the performance of wireless industrial communication systems
     year: '2011'
   5ml9v6kAAAAJ:35N4QoGY0k4C:
@@ -38,11 +38,11 @@ papers:
     title: Enhancing the real-time behavior of IEEE 802.11 n
     year: '2015'
   5ml9v6kAAAAJ:4OULZ7Gr8RgC:
-    citations: 55
+    citations: 56
     title: Functional safety networks and protocols in the industrial internet of things era
     year: '2021'
   5ml9v6kAAAAJ:4TOpqqG69KYC:
-    citations: 31
+    citations: 32
     title: An energy efficient ethernet strategy based on traffic prediction and shaping
     year: '2016'
   5ml9v6kAAAAJ:4fKUyHm3Qg0C:
@@ -50,7 +50,7 @@ papers:
     title: 'Time sensitive networking for future enabling technologies: Overview and measurement issues for metrological characterization'
     year: '2024'
   5ml9v6kAAAAJ:5Ul4iDaHHb8C:
-    citations: 4
+    citations: 6
     title: 'IEEE 1588 (PTP) over mmWave 5G NR: preliminary assessment of the synchronization accuracy for TSN applications'
     year: '2024'
   5ml9v6kAAAAJ:5nxA0vEk-isC:
@@ -85,8 +85,12 @@ papers:
     citations: 12
     title: Design of experiments for the assessment of coexistence between wireless networks
     year: '2010'
+  5ml9v6kAAAAJ:AXPGKjj_ei8C:
+    citations: 0
+    title: Impact of PMU Reporting Latency on On-Line Applications in a 5G and IEC 61850 Scenario
+    year: Unknown Year
   5ml9v6kAAAAJ:B3FOqHPlNUQC:
-    citations: 3
+    citations: 4
     title: A tsn-based technique for latency measurement in real-time wireless communication networks
     year: '2024'
   5ml9v6kAAAAJ:BqipwSGYUEgC:
@@ -102,7 +106,7 @@ papers:
     title: 'Artificial intelligence-based measurement systems for automotive: A comprehensive review'
     year: '2022'
   5ml9v6kAAAAJ:D03iK_w7-QYC:
-    citations: 9
+    citations: 8
     title: A simple Maxwellian optical system to investigate the photoreceptors contribution to pupillary light reflex
     year: '2022'
   5ml9v6kAAAAJ:D_sINldO8mEC:
@@ -110,7 +114,7 @@ papers:
     title: Message from the Conference Chairs
     year: '2024'
   5ml9v6kAAAAJ:EUQCXRtRnyEC:
-    citations: 21
+    citations: 22
     title: An IoT measurement system based on LoRaWAN for additive manufacturing
     year: '2022'
   5ml9v6kAAAAJ:GnPB-g6toBAC:
@@ -158,7 +162,7 @@ papers:
     title: 'Time-Sensitive Networking and Software-Defined Networking: An Experimental Setup for Realistic Performances'
     year: '2024'
   5ml9v6kAAAAJ:M05iB0D1s5AC:
-    citations: 4
+    citations: 5
     title: A Profinet Simulator for the Digital Twin of Networked Electrical Drive Systems
     year: '2020'
   5ml9v6kAAAAJ:M3NEmzRMIkIC:
@@ -258,7 +262,7 @@ papers:
     title: A preliminary prototype of smart healthcare modular system for cardiovascular diseases remote monitoring
     year: '2022'
   5ml9v6kAAAAJ:V3AGJWp-ZtQC:
-    citations: 1
+    citations: 2
     title: "Phasor measurement units\u2019 responsiveness: Fault simulations in a 5G network environment"
     year: '2025'
   5ml9v6kAAAAJ:VOx2b1Wkg3QC:
@@ -310,7 +314,7 @@ papers:
     title: 1 kHz remote control of a balancing robot with Wi-Fi-in-the-loop
     year: '2020'
   5ml9v6kAAAAJ:Zph67rFs4hoC:
-    citations: 93
+    citations: 95
     title: Resolution enhancement by compressive sensing in power quality and phasor measurement
     year: '2014'
   5ml9v6kAAAAJ:_FxGoFyzp5QC:
@@ -318,7 +322,7 @@ papers:
     title: A system architecture for distributed monitoring and control in a Smart Microgrid
     year: '2012'
   5ml9v6kAAAAJ:_Qo2XoVZTnwC:
-    citations: 5
+    citations: 6
     title: A calibrated test-set for measurement of access-point time specifications in hybrid wired/wireless industrial communication
     year: '2018'
   5ml9v6kAAAAJ:_kc_bZDykSQC:
@@ -342,7 +346,7 @@ papers:
     title: Assessing the impact of full-duplex wireless in real-time industrial networks
     year: '2018'
   5ml9v6kAAAAJ:blknAaTinKkC:
-    citations: 17
+    citations: 18
     title: "Comparative assessment of different opc ua open\u2013source stacks for embedded systems"
     year: '2019'
   5ml9v6kAAAAJ:cFHS6HbyZ2cC:
@@ -390,7 +394,7 @@ papers:
     title: Rate adaptation by reinforcement learning for Wi-Fi industrial networks
     year: '2020'
   5ml9v6kAAAAJ:geHnlv5EZngC:
-    citations: 10
+    citations: 12
     title: '5g-enabled pmu-based distributed measurement systems: Network infrastructure optimization and scalability analysis'
     year: '2024'
   5ml9v6kAAAAJ:hFOr9nPyWt4C:
@@ -402,7 +406,7 @@ papers:
     title: "Embedded systems for time\u2013critical applications over Wi-Fi: design and experimental assessment"
     year: '2019'
   5ml9v6kAAAAJ:hqOjcs7Dif8C:
-    citations: 81
+    citations: 82
     title: 'Industrial wireless networks: The significance of timeliness in communication systems'
     year: '2013'
   5ml9v6kAAAAJ:iH-uZ7U-co4C:
@@ -414,7 +418,7 @@ papers:
     title: A graph-based approach for mobile localization exploiting real and virtual landmarks
     year: '2018'
   5ml9v6kAAAAJ:j3f4tGmQtD8C:
-    citations: 144
+    citations: 145
     title: On the use of LoRaWAN for indoor industrial IoT applications
     year: '2018'
   5ml9v6kAAAAJ:k_IJM867U9cC:
@@ -422,7 +426,7 @@ papers:
     title: An indoor localization system to detect areas causing the freezing of gait in Parkinsonians
     year: '2019'
   5ml9v6kAAAAJ:l7t_Zn2s7bgC:
-    citations: 6
+    citations: 7
     title: Optimized 5G communication infrastructure for PMU-based distributed measurement systems
     year: '2023'
   5ml9v6kAAAAJ:ldfaerwXgEUC:
@@ -450,7 +454,7 @@ papers:
     title: Meteodo di taratura per induttori planari su PCB
     year: '2011'
   5ml9v6kAAAAJ:olpn-zPbct0C:
-    citations: 0
+    citations: 1
     title: 'Quantifying the Trajectory Tracking Accuracy in UGVs: The Role of Traffic Scheduling in Wi-Fi-Enabled Time-Sensitive Networking'
     year: '2026'
   5ml9v6kAAAAJ:p2g8aNsByqUC:
@@ -506,7 +510,7 @@ papers:
     title: Measurement method for end-to-end Time synchronization of wired and wireless TSN
     year: '2023'
   5ml9v6kAAAAJ:uWQEDVKXjbEC:
-    citations: 37
+    citations: 41
     title: 'Driver drowsiness detection: A machine learning approach on skin conductance'
     year: '2023'
   5ml9v6kAAAAJ:u_35RYKgDlwC:
@@ -534,7 +538,7 @@ papers:
     title: "On the Use of Artificial Intelligence and Sensor Fusion to Develop Accurate Eye Tracking and Driver\u2019s Emotional State Estimation Systems"
     year: '2022'
   5ml9v6kAAAAJ:yD5IFk8b50cC:
-    citations: 93
+    citations: 95
     title: A comprehensive review on time sensitive networks with a special focus on its applicability to industrial smart and distributed measurement systems
     year: '2022'
   5ml9v6kAAAAJ:zA6iFVUQeVQC:
