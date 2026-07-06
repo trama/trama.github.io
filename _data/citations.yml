@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-03'
+  last_updated: '2026-07-06'
 papers:
   5ml9v6kAAAAJ:-f6ydRqryjwC:
     citations: 3
@@ -106,7 +106,7 @@ papers:
     title: 'Artificial intelligence-based measurement systems for automotive: A comprehensive review'
     year: '2022'
   5ml9v6kAAAAJ:D03iK_w7-QYC:
-    citations: 8
+    citations: 9
     title: A simple Maxwellian optical system to investigate the photoreceptors contribution to pupillary light reflex
     year: '2022'
   5ml9v6kAAAAJ:D_sINldO8mEC:
@@ -406,7 +406,7 @@ papers:
     title: "Embedded systems for time\u2013critical applications over Wi-Fi: design and experimental assessment"
     year: '2019'
   5ml9v6kAAAAJ:hqOjcs7Dif8C:
-    citations: 82
+    citations: 83
     title: 'Industrial wireless networks: The significance of timeliness in communication systems'
     year: '2013'
   5ml9v6kAAAAJ:iH-uZ7U-co4C:
@@ -442,7 +442,7 @@ papers:
     title: Improved Rate Adaptation strategies for real-time industrial IEEE 802.11 n WLANs
     year: '2015'
   5ml9v6kAAAAJ:maZDTaKrznsC:
-    citations: 106
+    citations: 107
     title: 'Real-time and reliable industrial control over wireless lans: Algorithms, protocols, and future directions'
     year: '2019'
   5ml9v6kAAAAJ:mvPsJ3kp5DgC:
