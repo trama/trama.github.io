@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-06'
+  last_updated: '2026-07-15'
 papers:
   5ml9v6kAAAAJ:-f6ydRqryjwC:
     citations: 3
@@ -50,7 +50,7 @@ papers:
     title: 'Time sensitive networking for future enabling technologies: Overview and measurement issues for metrological characterization'
     year: '2024'
   5ml9v6kAAAAJ:5Ul4iDaHHb8C:
-    citations: 6
+    citations: 7
     title: 'IEEE 1588 (PTP) over mmWave 5G NR: preliminary assessment of the synchronization accuracy for TSN applications'
     year: '2024'
   5ml9v6kAAAAJ:5nxA0vEk-isC:
@@ -90,7 +90,7 @@ papers:
     title: Impact of PMU Reporting Latency on On-Line Applications in a 5G and IEC 61850 Scenario
     year: Unknown Year
   5ml9v6kAAAAJ:B3FOqHPlNUQC:
-    citations: 4
+    citations: 5
     title: A tsn-based technique for latency measurement in real-time wireless communication networks
     year: '2024'
   5ml9v6kAAAAJ:BqipwSGYUEgC:
@@ -442,7 +442,7 @@ papers:
     title: Improved Rate Adaptation strategies for real-time industrial IEEE 802.11 n WLANs
     year: '2015'
   5ml9v6kAAAAJ:maZDTaKrznsC:
-    citations: 107
+    citations: 108
     title: 'Real-time and reliable industrial control over wireless lans: Algorithms, protocols, and future directions'
     year: '2019'
   5ml9v6kAAAAJ:mvPsJ3kp5DgC:
@@ -514,7 +514,7 @@ papers:
     title: 'Driver drowsiness detection: A machine learning approach on skin conductance'
     year: '2023'
   5ml9v6kAAAAJ:u_35RYKgDlwC:
-    citations: 20
+    citations: 21
     title: 'Adaptive LoRaWAN transmission exploiting reinforcement learning: The industrial case'
     year: '2021'
   5ml9v6kAAAAJ:ufrVoPGSRksC:
@@ -538,7 +538,7 @@ papers:
     title: "On the Use of Artificial Intelligence and Sensor Fusion to Develop Accurate Eye Tracking and Driver\u2019s Emotional State Estimation Systems"
     year: '2022'
   5ml9v6kAAAAJ:yD5IFk8b50cC:
-    citations: 95
+    citations: 98
     title: A comprehensive review on time sensitive networks with a special focus on its applicability to industrial smart and distributed measurement systems
     year: '2022'
   5ml9v6kAAAAJ:zA6iFVUQeVQC:
