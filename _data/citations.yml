@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-17'
+  last_updated: '2026-07-22'
 papers:
   5ml9v6kAAAAJ:-f6ydRqryjwC:
     citations: 3
@@ -10,7 +10,7 @@ papers:
     title: 'Characterization of microgrid smart metering: Phasor estimation under impaired conditions'
     year: '2013'
   5ml9v6kAAAAJ:1sJd4Hv_s6UC:
-    citations: 42
+    citations: 43
     title: Driver drowsiness detection based on variation of skin conductance from wearable device
     year: '2022'
   5ml9v6kAAAAJ:2P1L_qKh6hAC:
@@ -66,7 +66,7 @@ papers:
     title: Assessment of different OPC UA industrial IoT solutions for distributed measurement applications
     year: '2020'
   5ml9v6kAAAAJ:738O_yMBCRsC:
-    citations: 10
+    citations: 9
     title: Time-sensitive networking to improve the performance of distributed functional safety systems implemented over wi-fi
     year: '2023'
   5ml9v6kAAAAJ:8AbLer7MMksC:
@@ -78,7 +78,7 @@ papers:
     title: Energy efficient Ethernet for the industrial communication scenario
     year: '2013'
   5ml9v6kAAAAJ:9ZlFYXVOiuMC:
-    citations: 146
+    citations: 147
     title: On the use of IEEE 802.11 n for industrial communications
     year: '2015'
   5ml9v6kAAAAJ:9yKSN-GCB0IC:
@@ -90,7 +90,7 @@ papers:
     title: Impact of PMU Reporting Latency on On-Line Applications in a 5G and IEC 61850 Scenario
     year: Unknown Year
   5ml9v6kAAAAJ:B3FOqHPlNUQC:
-    citations: 4
+    citations: 5
     title: A tsn-based technique for latency measurement in real-time wireless communication networks
     year: '2024'
   5ml9v6kAAAAJ:BqipwSGYUEgC:
@@ -114,7 +114,7 @@ papers:
     title: Message from the Conference Chairs
     year: '2024'
   5ml9v6kAAAAJ:EUQCXRtRnyEC:
-    citations: 22
+    citations: 21
     title: An IoT measurement system based on LoRaWAN for additive manufacturing
     year: '2022'
   5ml9v6kAAAAJ:GnPB-g6toBAC:
@@ -218,7 +218,7 @@ papers:
     title: 'IEEE 802.11 s performance assessment: simulations versus real-world experiments'
     year: Unknown Year
   5ml9v6kAAAAJ:RYcK_YlVTxYC:
-    citations: 18
+    citations: 19
     title: 'Time-critical wireless networked embedded systems: Feasibility and experimental assessment'
     year: '2020'
   5ml9v6kAAAAJ:SP6oXDckpogC:
@@ -262,7 +262,7 @@ papers:
     title: A preliminary prototype of smart healthcare modular system for cardiovascular diseases remote monitoring
     year: '2022'
   5ml9v6kAAAAJ:V3AGJWp-ZtQC:
-    citations: 2
+    citations: 3
     title: "Phasor measurement units\u2019 responsiveness: Fault simulations in a 5G network environment"
     year: '2025'
   5ml9v6kAAAAJ:VOx2b1Wkg3QC:
@@ -297,6 +297,10 @@ papers:
     citations: 77
     title: On the rate adaptation techniques of IEEE 802.11 networks for industrial applications
     year: '2012'
+  5ml9v6kAAAAJ:Y5dfb0dijaUC:
+    citations: 0
+    title: Bayesian Optimization of PTP Servo Parameters for Time Synchronization in Wired TSN Networks
+    year: Unknown Year
   5ml9v6kAAAAJ:YFjsv_pBGBYC:
     citations: 0
     title: Banco di prova efficace ed economico per la valutazione in pre-compliance di emissioni irradiate nella banda 2-8 GHz
@@ -314,7 +318,7 @@ papers:
     title: 1 kHz remote control of a balancing robot with Wi-Fi-in-the-loop
     year: '2020'
   5ml9v6kAAAAJ:Zph67rFs4hoC:
-    citations: 95
+    citations: 96
     title: Resolution enhancement by compressive sensing in power quality and phasor measurement
     year: '2014'
   5ml9v6kAAAAJ:_FxGoFyzp5QC:
@@ -373,6 +377,10 @@ papers:
     citations: 0
     title: Welcome Message from the General Chairs
     year: '2024'
+  5ml9v6kAAAAJ:eMMeJKvmdy0C:
+    citations: 0
+    title: 'Network Load Effects on IEC 61850 over 5G: Implications for Synchrophasor-Based Monitoring and Control'
+    year: Unknown Year
   5ml9v6kAAAAJ:eQOLeE2rZwMC:
     citations: 14
     title: Estimation of the delay of network devices in hybrid wired/wireless real-time industrial communication systems
@@ -394,7 +402,7 @@ papers:
     title: Rate adaptation by reinforcement learning for Wi-Fi industrial networks
     year: '2020'
   5ml9v6kAAAAJ:geHnlv5EZngC:
-    citations: 12
+    citations: 13
     title: '5g-enabled pmu-based distributed measurement systems: Network infrastructure optimization and scalability analysis'
     year: '2024'
   5ml9v6kAAAAJ:hFOr9nPyWt4C:
@@ -406,7 +414,7 @@ papers:
     title: "Embedded systems for time\u2013critical applications over Wi-Fi: design and experimental assessment"
     year: '2019'
   5ml9v6kAAAAJ:hqOjcs7Dif8C:
-    citations: 83
+    citations: 84
     title: 'Industrial wireless networks: The significance of timeliness in communication systems'
     year: '2013'
   5ml9v6kAAAAJ:iH-uZ7U-co4C:
@@ -538,7 +546,7 @@ papers:
     title: "On the Use of Artificial Intelligence and Sensor Fusion to Develop Accurate Eye Tracking and Driver\u2019s Emotional State Estimation Systems"
     year: '2022'
   5ml9v6kAAAAJ:yD5IFk8b50cC:
-    citations: 97
+    citations: 100
     title: A comprehensive review on time sensitive networks with a special focus on its applicability to industrial smart and distributed measurement systems
     year: '2022'
   5ml9v6kAAAAJ:zA6iFVUQeVQC:
