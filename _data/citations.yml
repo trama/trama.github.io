@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-07-22'
+  last_updated: '2026-08-03'
 papers:
   5ml9v6kAAAAJ:-f6ydRqryjwC:
     citations: 3
     title: An innovative approach to rate adaptation in IEEE 802.11 real-time industrial networks
     year: '2016'
   5ml9v6kAAAAJ:0EnyYjriUFMC:
-    citations: 13
+    citations: 14
     title: 'Characterization of microgrid smart metering: Phasor estimation under impaired conditions'
     year: '2013'
   5ml9v6kAAAAJ:1sJd4Hv_s6UC:
-    citations: 43
+    citations: 42
     title: Driver drowsiness detection based on variation of skin conductance from wearable device
     year: '2022'
   5ml9v6kAAAAJ:2P1L_qKh6hAC:
@@ -38,7 +38,7 @@ papers:
     title: Enhancing the real-time behavior of IEEE 802.11 n
     year: '2015'
   5ml9v6kAAAAJ:4OULZ7Gr8RgC:
-    citations: 56
+    citations: 54
     title: Functional safety networks and protocols in the industrial internet of things era
     year: '2021'
   5ml9v6kAAAAJ:4TOpqqG69KYC:
@@ -46,12 +46,12 @@ papers:
     title: An energy efficient ethernet strategy based on traffic prediction and shaping
     year: '2016'
   5ml9v6kAAAAJ:4fKUyHm3Qg0C:
-    citations: 4
+    citations: 5
     title: 'Time sensitive networking for future enabling technologies: Overview and measurement issues for metrological characterization'
     year: '2024'
   5ml9v6kAAAAJ:5Ul4iDaHHb8C:
     citations: 7
-    title: 'IEEE 1588 (PTP) over mmWave 5G NR: preliminary assessment of the synchronization accuracy for TSN applications'
+    title: 'IEEE 1588 (PTP) over mmWave 5G NR: Preliminary assessment of the synchronization accuracy for TSN applications'
     year: '2024'
   5ml9v6kAAAAJ:5nxA0vEk-isC:
     citations: 5
@@ -74,11 +74,11 @@ papers:
     title: 'Redundancy for mqtt communication: An evolution'
     year: '2024'
   5ml9v6kAAAAJ:8k81kl-MbHgC:
-    citations: 7
+    citations: 6
     title: Energy efficient Ethernet for the industrial communication scenario
     year: '2013'
   5ml9v6kAAAAJ:9ZlFYXVOiuMC:
-    citations: 147
+    citations: 149
     title: On the use of IEEE 802.11 n for industrial communications
     year: '2015'
   5ml9v6kAAAAJ:9yKSN-GCB0IC:
@@ -91,7 +91,7 @@ papers:
     year: Unknown Year
   5ml9v6kAAAAJ:B3FOqHPlNUQC:
     citations: 5
-    title: A tsn-based technique for latency measurement in real-time wireless communication networks
+    title: A TSN-based technique for latency measurement in real-time wireless communication networks
     year: '2024'
   5ml9v6kAAAAJ:BqipwSGYUEgC:
     citations: 0
@@ -114,7 +114,7 @@ papers:
     title: Message from the Conference Chairs
     year: '2024'
   5ml9v6kAAAAJ:EUQCXRtRnyEC:
-    citations: 21
+    citations: 24
     title: An IoT measurement system based on LoRaWAN for additive manufacturing
     year: '2022'
   5ml9v6kAAAAJ:GnPB-g6toBAC:
@@ -130,7 +130,7 @@ papers:
     title: "Evaluation of a Quantized 1D-CNN for Real-Time ECG Arrhythmia Classification on a Low\u2013Power Embedded System"
     year: Unknown Year
   5ml9v6kAAAAJ:HoB7MX3m0LUC:
-    citations: 52
+    citations: 53
     title: Assessment of different OPC UA implementations for industrial IoT-based measurement applications
     year: '2020'
   5ml9v6kAAAAJ:IjCSPb-OGe4C:
@@ -150,7 +150,7 @@ papers:
     title: Evaluating the integration of wireless time-sensitive networking with software-defined networking for dynamic network configuration
     year: '2023'
   5ml9v6kAAAAJ:KlAtU1dfN6UC:
-    citations: 31
+    citations: 30
     title: Energy efficient Ethernet for real-time industrial networks
     year: '2014'
   5ml9v6kAAAAJ:KxtntwgDAa4C:
@@ -162,8 +162,8 @@ papers:
     title: 'Time-Sensitive Networking and Software-Defined Networking: An Experimental Setup for Realistic Performances'
     year: '2024'
   5ml9v6kAAAAJ:M05iB0D1s5AC:
-    citations: 5
-    title: A Profinet Simulator for the Digital Twin of Networked Electrical Drive Systems
+    citations: 6
+    title: A profinet simulator for the digital twin of networked electrical drive systems
     year: '2020'
   5ml9v6kAAAAJ:M3NEmzRMIkIC:
     citations: 7
@@ -201,6 +201,10 @@ papers:
     citations: 0
     title: Research Article On the Use of LoRaWAN for Indoor Industrial IoT Applications
     year: '2018'
+  5ml9v6kAAAAJ:PELIpwtuRlgC:
+    citations: 0
+    title: Caratteristiche fisiche e protocollari delle reti di comunicazione industriale
+    year: '2017'
   5ml9v6kAAAAJ:QIV2ME_5wuYC:
     citations: 7
     title: Isochronous wireless communication system for industrial automation
@@ -218,7 +222,7 @@ papers:
     title: 'IEEE 802.11 s performance assessment: simulations versus real-world experiments'
     year: Unknown Year
   5ml9v6kAAAAJ:RYcK_YlVTxYC:
-    citations: 19
+    citations: 20
     title: 'Time-critical wireless networked embedded systems: Feasibility and experimental assessment'
     year: '2020'
   5ml9v6kAAAAJ:SP6oXDckpogC:
@@ -250,7 +254,7 @@ papers:
     title: System-level performance of an automation solution based on industry standards
     year: '2014'
   5ml9v6kAAAAJ:UeHWp8X0CEIC:
-    citations: 1
+    citations: 2
     title: 'A calibration method for planar inductors in EMC filters: Analysis and experimental validation'
     year: '2011'
   5ml9v6kAAAAJ:UebtZRa9Y70C:
@@ -282,7 +286,7 @@ papers:
     title: Exploiting Blood Volume Pulse and Skin Conductance for Driver Drowsiness Detection
     year: Unknown Year
   5ml9v6kAAAAJ:Wp0gIr-vW9MC:
-    citations: 16
+    citations: 17
     title: The IEEE 802.11 n wireless LAN for real-time industrial communication
     year: '2015'
   5ml9v6kAAAAJ:XiSMed-E-HIC:
@@ -294,7 +298,7 @@ papers:
     title: A Smart Redundant Version of the MQTT Protocol
     year: '2025'
   5ml9v6kAAAAJ:Y0pCki6q_DkC:
-    citations: 77
+    citations: 74
     title: On the rate adaptation techniques of IEEE 802.11 networks for industrial applications
     year: '2012'
   5ml9v6kAAAAJ:Y5dfb0dijaUC:
@@ -318,9 +322,13 @@ papers:
     title: 1 kHz remote control of a balancing robot with Wi-Fi-in-the-loop
     year: '2020'
   5ml9v6kAAAAJ:Zph67rFs4hoC:
-    citations: 96
+    citations: 95
     title: Resolution enhancement by compressive sensing in power quality and phasor measurement
     year: '2014'
+  5ml9v6kAAAAJ:_B80troHkn4C:
+    citations: 1
+    title: An Energy Efficient Ethernet Strategy Based on Traffic Prediction and Shaping
+    year: '2016'
   5ml9v6kAAAAJ:_FxGoFyzp5QC:
     citations: 12
     title: A system architecture for distributed monitoring and control in a Smart Microgrid
@@ -330,7 +338,7 @@ papers:
     title: A calibrated test-set for measurement of access-point time specifications in hybrid wired/wireless industrial communication
     year: '2018'
   5ml9v6kAAAAJ:_kc_bZDykSQC:
-    citations: 7
+    citations: 6
     title: An energy efficient traffic shaping algorithm for Ethernet-based multimedia industrial traffic
     year: '2014'
   5ml9v6kAAAAJ:_xSYboBqXhAC:
@@ -358,7 +366,7 @@ papers:
     title: 'Wi-fi based functional safety: an assessment of the fail safe over ethercat (fsoe) protocol'
     year: '2021'
   5ml9v6kAAAAJ:d1gkVwhDpl0C:
-    citations: 38
+    citations: 36
     title: Investigating WirelessHART coexistence issues through a specifically designed simulator
     year: '2009'
   5ml9v6kAAAAJ:dfsIfKJdRG4C:
@@ -386,7 +394,7 @@ papers:
     title: Estimation of the delay of network devices in hybrid wired/wireless real-time industrial communication systems
     year: '2012'
   5ml9v6kAAAAJ:eflP2zaiRacC:
-    citations: 11
+    citations: 14
     title: Industrial Wireless Sensor Networks
     year: '2016'
   5ml9v6kAAAAJ:f2IySw72cVMC:
@@ -398,7 +406,7 @@ papers:
     title: Welcome message from the workshop chairs
     year: '2021'
   5ml9v6kAAAAJ:g5m5HwL7SMYC:
-    citations: 15
+    citations: 13
     title: Rate adaptation by reinforcement learning for Wi-Fi industrial networks
     year: '2020'
   5ml9v6kAAAAJ:geHnlv5EZngC:
@@ -406,7 +414,7 @@ papers:
     title: '5g-enabled pmu-based distributed measurement systems: Network infrastructure optimization and scalability analysis'
     year: '2024'
   5ml9v6kAAAAJ:hFOr9nPyWt4C:
-    citations: 48
+    citations: 46
     title: A dynamic rate selection algorithm for IEEE 802.11 industrial wireless LAN
     year: '2016'
   5ml9v6kAAAAJ:hMod-77fHWUC:
@@ -414,7 +422,7 @@ papers:
     title: "Embedded systems for time\u2013critical applications over Wi-Fi: design and experimental assessment"
     year: '2019'
   5ml9v6kAAAAJ:hqOjcs7Dif8C:
-    citations: 84
+    citations: 83
     title: 'Industrial wireless networks: The significance of timeliness in communication systems'
     year: '2013'
   5ml9v6kAAAAJ:iH-uZ7U-co4C:
@@ -426,7 +434,7 @@ papers:
     title: A graph-based approach for mobile localization exploiting real and virtual landmarks
     year: '2018'
   5ml9v6kAAAAJ:j3f4tGmQtD8C:
-    citations: 145
+    citations: 140
     title: On the use of LoRaWAN for indoor industrial IoT applications
     year: '2018'
   5ml9v6kAAAAJ:k_IJM867U9cC:
@@ -438,7 +446,7 @@ papers:
     title: Optimized 5G communication infrastructure for PMU-based distributed measurement systems
     year: '2023'
   5ml9v6kAAAAJ:ldfaerwXgEUC:
-    citations: 13
+    citations: 12
     title: The impact of rate adaptation algorithms on wi-fi-based factory automation systems
     year: '2020'
   5ml9v6kAAAAJ:mB3voiENLucC:
@@ -446,11 +454,11 @@ papers:
     title: Performance analysis of ieee 802.11 rate selection for industrial networks
     year: '2016'
   5ml9v6kAAAAJ:mVmsd5A6BfQC:
-    citations: 19
+    citations: 18
     title: Improved Rate Adaptation strategies for real-time industrial IEEE 802.11 n WLANs
     year: '2015'
   5ml9v6kAAAAJ:maZDTaKrznsC:
-    citations: 108
+    citations: 109
     title: 'Real-time and reliable industrial control over wireless lans: Algorithms, protocols, and future directions'
     year: '2019'
   5ml9v6kAAAAJ:mvPsJ3kp5DgC:
@@ -490,7 +498,7 @@ papers:
     title: 'Snr-based reinforcement learning rate adaptation for time critical Wi-Fi networks: Assessment through a calibrated simulator'
     year: '2021'
   5ml9v6kAAAAJ:roLk4NBRz8UC:
-    citations: 4
+    citations: 3
     title: Industrial wireless sensor networks-simulation and measurement in an interfering environment
     year: '2012'
   5ml9v6kAAAAJ:sSrBHYA8nusC:
@@ -505,12 +513,16 @@ papers:
     citations: 1
     title: Packet losses distributions in 5g networks for pmu-based monitoring systems
     year: '2024'
+  5ml9v6kAAAAJ:tkaPQYYpVKoC:
+    citations: 0
+    title: Rate Adaptation by Reinforcement Learning for Wi-Fi Industrial Networks
+    year: '2020'
   5ml9v6kAAAAJ:u-x6o8ySG0sC:
-    citations: 18
+    citations: 17
     title: Investigating wireless networks coexistence issues through an interference aware simulator
     year: '2008'
   5ml9v6kAAAAJ:u5HHmVD_uO8C:
-    citations: 62
+    citations: 61
     title: Retransmission strategies for cyclic polling over wireless channels in the presence of interference
     year: '2010'
   5ml9v6kAAAAJ:u9iWguZQMMsC:
@@ -518,7 +530,7 @@ papers:
     title: Measurement method for end-to-end Time synchronization of wired and wireless TSN
     year: '2023'
   5ml9v6kAAAAJ:uWQEDVKXjbEC:
-    citations: 41
+    citations: 40
     title: 'Driver drowsiness detection: A machine learning approach on skin conductance'
     year: '2023'
   5ml9v6kAAAAJ:u_35RYKgDlwC:
@@ -531,12 +543,12 @@ papers:
     year: '2010'
   5ml9v6kAAAAJ:vRqMK49ujn8C:
     citations: 9
-    title: A TSN-based Technique for Real-Time Latency Evaluation in Communication Networks
+    title: A TSN-based technique for real-time latency evaluation in communication networks
     year: '2024'
   5ml9v6kAAAAJ:vV6vV6tmYwMC:
     citations: 0
     title: Ethernet powerlink
-    year: '2015'
+    year: '2017'
   5ml9v6kAAAAJ:wbdj-CoPYUoC:
     citations: 2
     title: 'A low-cost TSN-based embedded measurement system: Synchronization accuracy assessment'
@@ -546,7 +558,7 @@ papers:
     title: "On the Use of Artificial Intelligence and Sensor Fusion to Develop Accurate Eye Tracking and Driver\u2019s Emotional State Estimation Systems"
     year: '2022'
   5ml9v6kAAAAJ:yD5IFk8b50cC:
-    citations: 100
+    citations: 98
     title: A comprehensive review on time sensitive networks with a special focus on its applicability to industrial smart and distributed measurement systems
     year: '2022'
   5ml9v6kAAAAJ:zA6iFVUQeVQC:
@@ -554,6 +566,6 @@ papers:
     title: 'Drive-by-Wi-Fi: Model-based control over wireless at 1 kHz'
     year: '2021'
   5ml9v6kAAAAJ:zYLM7Y9cAGgC:
-    citations: 18
+    citations: 16
     title: A case for IEEE Std. 1451 in smart microgrid environments
     year: '2011'
