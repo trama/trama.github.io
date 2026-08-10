@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-03'
+  last_updated: '2026-08-10'
 papers:
   5ml9v6kAAAAJ:-f6ydRqryjwC:
     citations: 3
@@ -10,7 +10,7 @@ papers:
     title: 'Characterization of microgrid smart metering: Phasor estimation under impaired conditions'
     year: '2013'
   5ml9v6kAAAAJ:1sJd4Hv_s6UC:
-    citations: 42
+    citations: 43
     title: Driver drowsiness detection based on variation of skin conductance from wearable device
     year: '2022'
   5ml9v6kAAAAJ:2P1L_qKh6hAC:
@@ -38,7 +38,7 @@ papers:
     title: Enhancing the real-time behavior of IEEE 802.11 n
     year: '2015'
   5ml9v6kAAAAJ:4OULZ7Gr8RgC:
-    citations: 54
+    citations: 55
     title: Functional safety networks and protocols in the industrial internet of things era
     year: '2021'
   5ml9v6kAAAAJ:4TOpqqG69KYC:
@@ -88,7 +88,7 @@ papers:
   5ml9v6kAAAAJ:AXPGKjj_ei8C:
     citations: 0
     title: Impact of PMU Reporting Latency on On-Line Applications in a 5G and IEC 61850 Scenario
-    year: Unknown Year
+    year: '2026'
   5ml9v6kAAAAJ:B3FOqHPlNUQC:
     citations: 5
     title: A TSN-based technique for latency measurement in real-time wireless communication networks
@@ -130,7 +130,7 @@ papers:
     title: "Evaluation of a Quantized 1D-CNN for Real-Time ECG Arrhythmia Classification on a Low\u2013Power Embedded System"
     year: Unknown Year
   5ml9v6kAAAAJ:HoB7MX3m0LUC:
-    citations: 53
+    citations: 54
     title: Assessment of different OPC UA implementations for industrial IoT-based measurement applications
     year: '2020'
   5ml9v6kAAAAJ:IjCSPb-OGe4C:
@@ -410,7 +410,7 @@ papers:
     title: Rate adaptation by reinforcement learning for Wi-Fi industrial networks
     year: '2020'
   5ml9v6kAAAAJ:geHnlv5EZngC:
-    citations: 13
+    citations: 14
     title: '5g-enabled pmu-based distributed measurement systems: Network infrastructure optimization and scalability analysis'
     year: '2024'
   5ml9v6kAAAAJ:hFOr9nPyWt4C:
@@ -434,11 +434,11 @@ papers:
     title: A graph-based approach for mobile localization exploiting real and virtual landmarks
     year: '2018'
   5ml9v6kAAAAJ:j3f4tGmQtD8C:
-    citations: 140
+    citations: 141
     title: On the use of LoRaWAN for indoor industrial IoT applications
     year: '2018'
   5ml9v6kAAAAJ:k_IJM867U9cC:
-    citations: 15
+    citations: 16
     title: An indoor localization system to detect areas causing the freezing of gait in Parkinsonians
     year: '2019'
   5ml9v6kAAAAJ:l7t_Zn2s7bgC:
@@ -530,7 +530,7 @@ papers:
     title: Measurement method for end-to-end Time synchronization of wired and wireless TSN
     year: '2023'
   5ml9v6kAAAAJ:uWQEDVKXjbEC:
-    citations: 40
+    citations: 41
     title: 'Driver drowsiness detection: A machine learning approach on skin conductance'
     year: '2023'
   5ml9v6kAAAAJ:u_35RYKgDlwC:
@@ -558,7 +558,7 @@ papers:
     title: "On the Use of Artificial Intelligence and Sensor Fusion to Develop Accurate Eye Tracking and Driver\u2019s Emotional State Estimation Systems"
     year: '2022'
   5ml9v6kAAAAJ:yD5IFk8b50cC:
-    citations: 98
+    citations: 99
     title: A comprehensive review on time sensitive networks with a special focus on its applicability to industrial smart and distributed measurement systems
     year: '2022'
   5ml9v6kAAAAJ:zA6iFVUQeVQC:
