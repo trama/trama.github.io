@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-10'
+  last_updated: '2026-09-04'
 papers:
   5ml9v6kAAAAJ:-f6ydRqryjwC:
     citations: 3
@@ -10,7 +10,7 @@ papers:
     title: 'Characterization of microgrid smart metering: Phasor estimation under impaired conditions'
     year: '2013'
   5ml9v6kAAAAJ:1sJd4Hv_s6UC:
-    citations: 43
+    citations: 46
     title: Driver drowsiness detection based on variation of skin conductance from wearable device
     year: '2022'
   5ml9v6kAAAAJ:2P1L_qKh6hAC:
@@ -22,7 +22,7 @@ papers:
     title: Influence of real components behavior on the performance of wireless industrial communication systems
     year: '2011'
   5ml9v6kAAAAJ:35N4QoGY0k4C:
-    citations: 19
+    citations: 20
     title: 'Adaptive transmission rate for LQG control over Wi-Fi: A cross-layer approach'
     year: '2020'
   5ml9v6kAAAAJ:3fE2CSJIrl8C:
@@ -34,7 +34,7 @@ papers:
     title: A machine learning approach for a vision-based van-herick measurement system
     year: '2021'
   5ml9v6kAAAAJ:4DMP91E08xMC:
-    citations: 2
+    citations: 3
     title: Enhancing the real-time behavior of IEEE 802.11 n
     year: '2015'
   5ml9v6kAAAAJ:4OULZ7Gr8RgC:
@@ -114,7 +114,7 @@ papers:
     title: Message from the Conference Chairs
     year: '2024'
   5ml9v6kAAAAJ:EUQCXRtRnyEC:
-    citations: 24
+    citations: 25
     title: An IoT measurement system based on LoRaWAN for additive manufacturing
     year: '2022'
   5ml9v6kAAAAJ:GnPB-g6toBAC:
@@ -130,7 +130,7 @@ papers:
     title: "Evaluation of a Quantized 1D-CNN for Real-Time ECG Arrhythmia Classification on a Low\u2013Power Embedded System"
     year: Unknown Year
   5ml9v6kAAAAJ:HoB7MX3m0LUC:
-    citations: 54
+    citations: 55
     title: Assessment of different OPC UA implementations for industrial IoT-based measurement applications
     year: '2020'
   5ml9v6kAAAAJ:IjCSPb-OGe4C:
@@ -226,7 +226,7 @@ papers:
     title: 'Time-critical wireless networked embedded systems: Feasibility and experimental assessment'
     year: '2020'
   5ml9v6kAAAAJ:SP6oXDckpogC:
-    citations: 3
+    citations: 4
     title: A learning model for battery lifetime prediction of LoRa sensors in additive manufacturing
     year: '2023'
   5ml9v6kAAAAJ:Se3iqnhoufwC:
@@ -274,7 +274,7 @@ papers:
     title: 'Fault simulation in Phasor Measurement Units: A study on system reaction time in a 5G network environment'
     year: '2025'
   5ml9v6kAAAAJ:W7OEmFMy1HYC:
-    citations: 35
+    citations: 36
     title: 'Performance of industrial communication systems: Real application contexts'
     year: '2012'
   5ml9v6kAAAAJ:WA5NYHcadZ8C:
@@ -406,15 +406,15 @@ papers:
     title: Welcome message from the workshop chairs
     year: '2021'
   5ml9v6kAAAAJ:g5m5HwL7SMYC:
-    citations: 13
+    citations: 14
     title: Rate adaptation by reinforcement learning for Wi-Fi industrial networks
     year: '2020'
   5ml9v6kAAAAJ:geHnlv5EZngC:
-    citations: 14
+    citations: 15
     title: '5g-enabled pmu-based distributed measurement systems: Network infrastructure optimization and scalability analysis'
     year: '2024'
   5ml9v6kAAAAJ:hFOr9nPyWt4C:
-    citations: 46
+    citations: 47
     title: A dynamic rate selection algorithm for IEEE 802.11 industrial wireless LAN
     year: '2016'
   5ml9v6kAAAAJ:hMod-77fHWUC:
@@ -422,7 +422,7 @@ papers:
     title: "Embedded systems for time\u2013critical applications over Wi-Fi: design and experimental assessment"
     year: '2019'
   5ml9v6kAAAAJ:hqOjcs7Dif8C:
-    citations: 83
+    citations: 84
     title: 'Industrial wireless networks: The significance of timeliness in communication systems'
     year: '2013'
   5ml9v6kAAAAJ:iH-uZ7U-co4C:
@@ -434,7 +434,7 @@ papers:
     title: A graph-based approach for mobile localization exploiting real and virtual landmarks
     year: '2018'
   5ml9v6kAAAAJ:j3f4tGmQtD8C:
-    citations: 141
+    citations: 142
     title: On the use of LoRaWAN for indoor industrial IoT applications
     year: '2018'
   5ml9v6kAAAAJ:k_IJM867U9cC:
@@ -458,7 +458,7 @@ papers:
     title: Improved Rate Adaptation strategies for real-time industrial IEEE 802.11 n WLANs
     year: '2015'
   5ml9v6kAAAAJ:maZDTaKrznsC:
-    citations: 109
+    citations: 110
     title: 'Real-time and reliable industrial control over wireless lans: Algorithms, protocols, and future directions'
     year: '2019'
   5ml9v6kAAAAJ:mvPsJ3kp5DgC:
@@ -530,7 +530,7 @@ papers:
     title: Measurement method for end-to-end Time synchronization of wired and wireless TSN
     year: '2023'
   5ml9v6kAAAAJ:uWQEDVKXjbEC:
-    citations: 41
+    citations: 44
     title: 'Driver drowsiness detection: A machine learning approach on skin conductance'
     year: '2023'
   5ml9v6kAAAAJ:u_35RYKgDlwC:
@@ -558,7 +558,7 @@ papers:
     title: "On the Use of Artificial Intelligence and Sensor Fusion to Develop Accurate Eye Tracking and Driver\u2019s Emotional State Estimation Systems"
     year: '2022'
   5ml9v6kAAAAJ:yD5IFk8b50cC:
-    citations: 99
+    citations: 103
     title: A comprehensive review on time sensitive networks with a special focus on its applicability to industrial smart and distributed measurement systems
     year: '2022'
   5ml9v6kAAAAJ:zA6iFVUQeVQC:
